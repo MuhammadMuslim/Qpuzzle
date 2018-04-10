@@ -30,6 +30,7 @@ import java.util.List;
 import id.mromadloni.q_puzzle.R;
 import itam.q_puzzle.helper.Acak;
 import itam.q_puzzle.helper.DatabaseHelper;
+import itam.q_puzzle.helper.backpropagation;
 import itam.q_puzzle.model.BlokKosong;
 import itam.q_puzzle.model.Kata;
 import itam.q_puzzle.model.Level;
@@ -473,8 +474,13 @@ public class PuzzleBoardActivity extends AppCompatActivity {
                 Log.d("paramKesalahan: ", paramKesalahan + " = " + isSalah + "/(" + jumlahSoal + "+" + isSalah + ")");
                 Log.d("paramBantuan: ", paramBantuan + " = " + useBantuan + "/" + jumlahSoal);
 
-//                FISSugeno = new FISSugeno();
-//                nextLevel = FISSugeno.getLevel(paramWaktu, paramKesalahan, paramBantuan);
+                backpropagation bp = new backpropagation();
+                //pencarian proses
+                bp.FeedForward();
+                // bobot node
+                bp.UpdateWeights();
+                //waktu delay per sekon
+                bp.set_delay(60);
                 nextPuzzle = curPuzzle + 1;
                 nextSurat = curSurat - 1;
 

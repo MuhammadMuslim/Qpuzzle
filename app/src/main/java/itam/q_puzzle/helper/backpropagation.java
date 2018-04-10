@@ -40,6 +40,9 @@ public class backpropagation extends  Thread  implements Serializable
     public  double   ActualOutput[][];
     long delay = 0;
     boolean die = false;
+
+
+
     // Calculate the node activations
     public void FeedForward()
     {
@@ -259,8 +262,11 @@ public class backpropagation extends  Thread  implements Serializable
         catch (Exception e){System.out.println(e.toString());}
     }
 
+    public backpropagation() {
 
-    public  backpropagation load(String FileName)
+    }
+
+    public backpropagation load(String FileName)
     {
 
         backpropagation myclass= null;
@@ -289,11 +295,12 @@ public class backpropagation extends  Thread  implements Serializable
         TrainNetwork();
         File Net_File = new File(Environment.getExternalStorageDirectory(),"Number_Recognition_1.ser");
         save(Net_File.getAbsolutePath());
-        System.out.println( "DONE TRAINING :) ^_^ ^_^ :) !\n");
+        System.out.println( "DONE TRAINING\n");
         System.out.println("With Network ERROR = "+Double.toString(get_error())+"\n");
     } // run()
 
-
     // to notify the network to stop training.
     public void kill() { die = true; }
+
+
 }
