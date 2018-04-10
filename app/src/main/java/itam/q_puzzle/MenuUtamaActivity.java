@@ -1,8 +1,10 @@
 package itam.q_puzzle;
 
 import android.content.Context;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
+import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.view.Window;
@@ -41,9 +43,31 @@ public class MenuUtamaActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-                Intent intent = new Intent(context, PapanNilaiActivity.class);
+                Intent intent = new Intent(context, NilaiPermainanActivity.class);
                 startActivity(intent);
             }
         });
+
+        ImageButton IBkeluar = (ImageButton) findViewById(R.id.iBt_keluar);
+        IBkeluar.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                onBackPressed();
+            }
+        });
+
+    }
+
+    public void onBackPressed() {
+        new AlertDialog.Builder(this)
+                .setMessage("Apa kalian ingin Exit?")
+                .setCancelable(false)
+                .setPositiveButton("Yes", new DialogInterface.OnClickListener() {
+                    public void onClick(DialogInterface dialog, int id) {
+                        MenuUtamaActivity.this.finish();
+                    }
+                })
+                .setNegativeButton("No", null)
+                .show();
     }
 }
