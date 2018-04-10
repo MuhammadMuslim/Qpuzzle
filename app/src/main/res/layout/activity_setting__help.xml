@@ -14,15 +14,93 @@
         android:layout_height="0dp"
         android:layout_weight="1">
 
-        <TextView
-            android:id="@+id/message"
+        <RelativeLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="@dimen/activity_vertical_margin"
-            android:layout_marginLeft="@dimen/activity_horizontal_margin"
-            android:layout_marginRight="@dimen/activity_horizontal_margin"
-            android:layout_marginTop="@dimen/activity_vertical_margin"
-            android:text="@string/title_home" />
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/ket2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/ket1"
+                android:layout_alignTop="@+id/mimageView2"
+                android:layout_marginTop="21dp"
+                android:text=">> Digunakan untuk menyetting pengaturan game Q-Puzzle" />
+
+            <TextView
+                android:id="@+id/ket3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/mimageView4"
+                android:layout_alignStart="@+id/ket2"
+                android:layout_marginBottom="20dp"
+                android:text=">> Digunakan untuk melihat score pada game Q-Puzzle" />
+
+            <TextView
+                android:id="@+id/ket4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/mimageView4"
+                android:layout_alignStart="@+id/ket3"
+                android:layout_marginBottom="21dp"
+                android:text=">> Digunakan untuk mengakhiri &amp; keluar dari game Q-Puzzle" />
+
+            <TextView
+                android:id="@+id/ket1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/mimageView"
+                android:layout_marginStart="13dp"
+                android:layout_marginTop="20dp"
+                android:layout_toEndOf="@+id/mimageView"
+                android:text=">> Digunakan untuk memulai memainkan game Q-Puzzle" />
+
+            <ImageView
+                android:id="@+id/mimageView"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_alignStart="@+id/message"
+                android:layout_below="@+id/message"
+                android:layout_marginTop="10dp"
+                app:srcCompat="@drawable/mubtmulai" />
+
+            <ImageView
+                android:id="@+id/mimageView2"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                app:srcCompat="@drawable/mubtpengaturan"
+                android:layout_below="@+id/mimageView"
+                android:layout_alignStart="@+id/mimageView"
+                android:layout_marginTop="13dp" />
+
+            <ImageView
+                android:id="@+id/mimageView3"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_alignStart="@+id/mimageView2"
+                android:layout_below="@+id/mimageView2"
+                android:layout_marginTop="13dp"
+                app:srcCompat="@drawable/mubtpapannilai" />
+
+            <ImageView
+                android:id="@+id/mimageView4"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_alignStart="@+id/mimageView3"
+                android:layout_below="@+id/mimageView3"
+                android:layout_marginTop="10dp"
+                app:srcCompat="@drawable/mubtkeluar" />
+
+            <TextView
+                android:id="@+id/message"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                android:layout_marginRight="@dimen/activity_horizontal_margin"
+                android:text="@string/title_home" />
+        </RelativeLayout>
 
     </FrameLayout>
 

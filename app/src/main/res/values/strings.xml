@@ -1,7 +1,20 @@
 <resources>
     <string name="app_name">Q-Puzzle</string>
     <string name="title_activity_setting__help">Setting_Help</string>
-    <string name="title_home">Home</string>
-    <string name="title_dashboard">Dashboard</string>
-    <string name="title_notifications">Notifications</string>
+    <string name="title_home">Menu</string>
+    <!--<string name="isimenu">Panduan menjalankan menu-menu yang ada pada game Q-Puzzle</string>-->
+    <string name="ket1menu"> >> Digunakan untuk memulai memainkan game Q-Puzzle </string>
+    <string name="ket2menu"> >> Digunakan untuk menyetting pengaturan game Q-Puzzle </string>
+    <string name="ket3menu"> >> Digunakan untuk melihat score pada game Q-Puzzle</string>
+    <string name="ket4menu"> >> Digunakan untuk mengakhiri "&amp;" keluar dari game Q-Puzzle</string>
+    <string name="ket1main"> >> Memulai permainan baru pada game Q-Puzzle</string>
+    <string name="ket2main"> >> Melanjutkan permainan sebelumnya pada game Q-Puzzle</string>
+    <string name="ket3main"> >> Menyetting permainan pada game Q-Puzzle</string>
+    <string name="ket4main"> >> Mendapatkan bantuan penyelesaian pada game Q-Puzzle</string>
+    <string name="ket1ting"> >> Tingkatan mudah dalam memainkan game Q-Puzzle</string>
+    <string name="ket2ting"> >> Tingkatan sedang dalam memainkan pada game Q-Puzzle</string>
+    <string name="ket3ting"> >> Tingkatan sulit dalam memainkan pada game Q-Puzzle</string>
+    <string name="ket4ting"> >> Tingkatan bonus dalam memainkan pada game Q-Puzzle</string>
+    <string name="title_dashboard">Cara Main</string>
+    <string name="title_notifications">Tingkatan Permainan</string>
 </resources>
