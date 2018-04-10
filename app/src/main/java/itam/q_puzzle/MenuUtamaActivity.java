@@ -12,7 +12,6 @@ import android.view.WindowManager;
 import android.widget.ImageButton;
 
 import id.mromadloni.q_puzzle.R;
-import id.mromadloni.q_puzzle.Setting_Help;
 
 public class MenuUtamaActivity extends AppCompatActivity {
 

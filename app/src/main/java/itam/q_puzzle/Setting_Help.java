@@ -1,4 +1,4 @@
-package id.mromadloni.q_puzzle;
+package itam.q_puzzle;
 
 import android.os.Bundle;
 import android.support.annotation.NonNull;
@@ -7,6 +7,8 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.MenuItem;
 import android.widget.ImageView;
 import android.widget.TextView;
+
+import id.mromadloni.q_puzzle.R;
 
 public class Setting_Help extends AppCompatActivity {
 

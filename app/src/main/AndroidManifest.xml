@@ -36,7 +36,7 @@
             android:name="itam.q_puzzle.PapanNilaiActivity"
             android:screenOrientation="landscape" />
         <activity
-            android:name=".Setting_Help"
+            android:name="itam.q_puzzle.Setting_Help"
             android:label="help"
             android:screenOrientation="landscape">
         </activity>

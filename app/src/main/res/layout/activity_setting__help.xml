@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="id.mromadloni.q_puzzle.Setting_Help">
+    tools:context="id.mromadloni.q_puzzle.itam.q_puzzle.Setting_Help">
 
     <FrameLayout
         android:id="@+id/content"
