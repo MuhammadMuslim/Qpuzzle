@@ -12,6 +12,7 @@ import android.view.WindowManager;
 import android.widget.ImageButton;
 
 import id.mromadloni.q_puzzle.R;
+import id.mromadloni.q_puzzle.Setting_Help;
 
 public class MenuUtamaActivity extends AppCompatActivity {
 
@@ -53,6 +54,15 @@ public class MenuUtamaActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 onBackPressed();
+            }
+        });
+
+        ImageButton IBset = (ImageButton) findViewById(R.id.iBt_pengaturan);
+        IBset.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(context, Setting_Help.class);
+                startActivity(intent);
             }
         });
 

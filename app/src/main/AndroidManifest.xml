@@ -8,8 +8,8 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-
-        <activity android:name="itam.q_puzzle.SettingDBActivity"
+        <activity
+            android:name="itam.q_puzzle.SettingDBActivity"
             android:screenOrientation="landscape">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -17,24 +17,29 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
-        <activity android:name="itam.q_puzzle.MenuUtamaActivity"
-            android:screenOrientation="landscape"/>
-
-        <activity android:name="itam.q_puzzle.SetPemainActivity"
-            android:screenOrientation="landscape"/>
-
-        <activity android:name="itam.q_puzzle.LoadingScreenActivity"
-            android:screenOrientation="landscape"/>
-
-        <activity android:name="itam.q_puzzle.PuzzleBoardActivity"
-            android:screenOrientation="landscape"/>
-
-        <activity android:name="itam.q_puzzle.NilaiPermainanActivity"
-            android:screenOrientation="landscape"/>
-
-        <activity android:name="itam.q_puzzle.PapanNilaiActivity"
-            android:screenOrientation="landscape"/>
+        <activity
+            android:name="itam.q_puzzle.MenuUtamaActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="itam.q_puzzle.SetPemainActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="itam.q_puzzle.LoadingScreenActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="itam.q_puzzle.PuzzleBoardActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="itam.q_puzzle.NilaiPermainanActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="itam.q_puzzle.PapanNilaiActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Setting_Help"
+            android:label="help"
+            android:screenOrientation="landscape">
+        </activity>
     </application>
 
 </manifest>
