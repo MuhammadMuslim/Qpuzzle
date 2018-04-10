@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAbu2"
+    android:id="@+id/rL_ls">
+
+    <ImageView
+        android:id="@+id/iV_ls_judul"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:paddingBottom="20dp"
+        android:src="@drawable/lsjd114" />
+
+    <ImageView
+        android:id="@+id/iV_ls_puzzle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/iV_ls_judul"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:src="@drawable/lspuzzle1" />
+
+    <ImageView
+        android:id="@+id/iV_ls_level"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/iV_ls_judul"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/lslevel1" />
+
+    <ProgressBar
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/iV_ls_level"
+        android:layout_marginTop="20dp"
+        android:id="@+id/pB_ls"
+        android:layout_centerHorizontal="true"
+        android:max="100"
+        android:progress="0"
+        android:minWidth="480dp"
+        android:minHeight="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sentuh layar.."
+        android:id="@+id/tV_lssentuhlayar"
+        android:textStyle="bold"
+        android:textSize="14dp"
+        android:textColor="@color/colorAbu6"
+        android:layout_alignTop="@+id/pB_ls"
+        android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>

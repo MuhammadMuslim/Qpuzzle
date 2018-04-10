@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAbu2">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/npnilaitotal"
+        android:layout_marginTop="20dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/rL_npnilaitotal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0000"
+            android:id="@+id/tV_npnilaitotal"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:textSize="30dp"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/iV_nplevel"
+        android:src="@drawable/nplevel1"
+        android:layout_alignTop="@+id/rL_npnilaitotal"
+        android:paddingTop="6dp"
+        android:layout_toEndOf="@+id/rL_npnilaitotal"
+        android:layout_marginStart="-12dp"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/iV_npsurat"
+        android:src="@drawable/npsurat114"
+        android:layout_alignTop="@+id/rL_npnilaitotal"
+        android:paddingTop="6dp"
+        android:layout_toStartOf="@+id/rL_npnilaitotal"
+        android:layout_marginEnd="-12dp"/>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rL_npnilaitotal"
+        android:background="@drawable/npnilai"
+        android:id="@+id/rL_npnilai"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:layoutDirection="rtl">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0000"
+            android:id="@+id/tV_npnilai"
+            android:textStyle="bold"
+            android:paddingRight="4dp"
+            android:textSize="13dp"
+            android:layout_centerVertical="true"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rL_npnilai"
+        android:background="@drawable/npwaktu"
+        android:id="@+id/rL_npwaktu"
+        android:layout_marginTop="4dp"
+        android:layout_centerHorizontal="true"
+        android:layoutDirection="rtl">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="00:00"
+            android:id="@+id/tV_npwaktu"
+            android:textStyle="bold"
+            android:paddingRight="4dp"
+            android:textSize="13dp"
+            android:layout_centerVertical="true"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rL_npwaktu"
+        android:background="@drawable/npsalah"
+        android:id="@+id/rL_npsalah"
+        android:layout_marginTop="4dp"
+        android:layout_centerHorizontal="true"
+        android:layoutDirection="rtl">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="00"
+            android:id="@+id/tV_npsalah"
+            android:textStyle="bold"
+            android:paddingRight="4dp"
+            android:textSize="13dp"
+            android:layout_centerVertical="true"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rL_npsalah"
+        android:background="@drawable/npbantuan"
+        android:id="@+id/rL_npbantuan"
+        android:layout_marginTop="4dp"
+        android:layout_centerHorizontal="true"
+        android:layoutDirection="rtl">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="00"
+            android:id="@+id/tV_npbantuan"
+            android:textStyle="bold"
+            android:paddingRight="4dp"
+            android:textSize="13dp"
+            android:layout_centerVertical="true"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rL_npbantuan"
+        android:background="@drawable/npbonus"
+        android:id="@+id/rL_npbonus"
+        android:layout_marginTop="4dp"
+        android:layout_centerHorizontal="true"
+        android:layoutDirection="rtl">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0000"
+            android:id="@+id/tV_npbonus"
+            android:textStyle="bold"
+            android:paddingRight="4dp"
+            android:textSize="13dp"
+            android:layout_centerVertical="true"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rL_npbonus"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/nptotalnilai"
+        android:id="@+id/rL_nptotalnilai"
+        android:layout_centerHorizontal="true"
+        android:layoutDirection="rtl">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="00000"
+            android:id="@+id/tV_nptotalnilai"
+            android:textStyle="bold"
+            android:paddingRight="5dp"
+            android:textSize="17dp"
+            android:layout_centerVertical="true"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rL_nptotalnilai"
+        android:layout_marginTop="4dp"
+        android:background="@drawable/nptotalwaktu"
+        android:id="@+id/rL_nptotalwaktu"
+        android:layout_centerHorizontal="true"
+        android:layoutDirection="rtl">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="00:00:00"
+            android:id="@+id/tV_nptotalwaktu"
+            android:textStyle="bold"
+            android:paddingRight="5dp"
+            android:textSize="17dp"
+            android:layout_centerVertical="true"/>
+    </RelativeLayout>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rL_nptotalwaktu"
+        android:layout_marginTop="22dp"
+        android:id="@+id/iV_npselanjutnya"
+        android:background="@drawable/npselanjutnya"
+        android:layout_centerHorizontal="true"/>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/iV_npselanjutnya"
+        android:layout_marginTop="4dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/rL_nppuzzlelevelselanjutnya">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/iV_nppuzzleselanjutnya"
+            android:src="@drawable/nppuzzleselanjutnya1" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/iV_nplevelselanjutnya"
+            android:src="@drawable/nplevelselanjutnya1"
+            android:layout_toRightOf="@id/iV_nppuzzleselanjutnya"
+            android:layout_marginStart="-12dp"/>
+    </RelativeLayout>
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/iB_nppengaturan"
+        android:src="@drawable/npbuttonpengaturan"
+        android:layout_toStartOf="@+id/rL_nppuzzlelevelselanjutnya"
+        android:layout_alignBottom="@id/rL_nppuzzlelevelselanjutnya"
+        android:layout_marginRight="20dp"
+        android:background="?android:attr/selectableItemBackground" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/iB_npselanjutnya"
+        android:src="@drawable/npbuttonselanjutnya"
+        android:layout_toEndOf="@+id/rL_nppuzzlelevelselanjutnya"
+        android:layout_alignBottom="@id/rL_nppuzzlelevelselanjutnya"
+        android:layout_marginLeft="20dp"
+        android:background="?android:attr/selectableItemBackground" />
+
+</RelativeLayout>

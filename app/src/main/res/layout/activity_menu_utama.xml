@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/iV_bg"
+        android:scaleType="centerCrop"
+        android:src="@drawable/mubg"/>
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/iBt_mulai"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/mubtmulai"
+        android:background="?android:attr/selectableItemBackground" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Q-Puzzle"
+        android:textColor="@color/colorAbu1"
+        android:textSize="80dp"
+        android:textStyle="bold"
+        android:id="@+id/TV_judul"
+        android:layout_marginBottom="20dp"
+        android:layout_above="@+id/iBt_mulai"
+        android:layout_centerHorizontal="true" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/iBt_papannilai"
+        android:src="@drawable/mubtpapannilai"
+        android:layout_below="@+id/iBt_mulai"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:background="?android:attr/selectableItemBackground"/>
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/iBt_keluar"
+        android:src="@drawable/mubtkeluar"
+        android:layout_alignTop="@+id/iBt_papannilai"
+        android:layout_toRightOf="@+id/iBt_papannilai"
+        android:layout_marginLeft="20dp"
+        android:background="?android:attr/selectableItemBackground"/>
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/iBt_pengaturan"
+        android:src="@drawable/mubtpengaturan"
+        android:layout_alignTop="@+id/iBt_papannilai"
+        android:layout_toLeftOf="@+id/iBt_papannilai"
+        android:layout_marginRight="20dp"
+        android:background="?android:attr/selectableItemBackground"/>
+</RelativeLayout>
