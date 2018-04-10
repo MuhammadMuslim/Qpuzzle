@@ -78,7 +78,7 @@ public class PuzzleBoardActivity extends AppCompatActivity {
     Acak acak = new Acak();
     ArrayList<Integer> numBlokKosong;
     List<Kata> listJawaban = new ArrayList<Kata>();
-    ImageButton buttonBantuan;
+    ImageButton buttonBantuan, buttonsetting;
     ImageView imageSurat;
     CharSequence textToast;
     int durToast = Toast.LENGTH_SHORT;
@@ -369,6 +369,8 @@ public class PuzzleBoardActivity extends AppCompatActivity {
 
         imageSurat.setImageDrawable(getDrawableByName("pzjd"+curSurat));
 
+
+
         Log.d("Num Kata: ", ""+surat.getKata());
         Log.d("Num Blank: ", ""+blokKosong.getBlank());
         Log.d("Num Max Row: ", ""+level.getMaxRow());
@@ -390,6 +392,15 @@ public class PuzzleBoardActivity extends AppCompatActivity {
 
         linearListJawaban = (LinearListView) findViewById(R.id.linearListJawaban);
         linearListJawaban.setAdapter(adapterJawaban);
+
+        buttonsetting = (ImageButton) findViewById(R.id.iB_pzmenu);
+        buttonsetting.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(PuzzleBoardActivity.this, SetPemainActivity.class);
+                startActivity(i);
+            }
+        });
 
         buttonBantuan = (ImageButton) findViewById(R.id.iB_pzbantuan);
         buttonBantuan.setOnClickListener(new View.OnClickListener() {
