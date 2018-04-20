@@ -1,4 +1,4 @@
-package itam.q_puzzle;
+package itam.q_puzzle.activity;
 
 import android.content.Context;
 import android.content.Intent;
@@ -30,15 +30,15 @@ import java.util.List;
 import id.mromadloni.q_puzzle.R;
 import itam.q_puzzle.DBhelper.DatabaseHelper;
 import itam.q_puzzle.function.Acak;
-import itam.q_puzzle.function.Leveling;
+import itam.q_puzzle.function.indeks;
 import itam.q_puzzle.method_engine.Backpropagation;
-import itam.q_puzzle.model_activity.BlokKosong;
-import itam.q_puzzle.model_activity.Kata;
-import itam.q_puzzle.model_activity.Level;
-import itam.q_puzzle.model_activity.Settings;
-import itam.q_puzzle.model_activity.Surat;
+import itam.q_puzzle.model.BlokKosong;
+import itam.q_puzzle.model.Kata;
+import itam.q_puzzle.model.Level;
+import itam.q_puzzle.model.Settings;
+import itam.q_puzzle.model.Surat;
 
-//import Leveling;
+//import indeks;
 
 /**
  * Created by M. ROMADLONI on 18-06-2016.
@@ -62,7 +62,7 @@ public class PuzzleBoardActivity extends AppCompatActivity {
     int waktu = 0;
     int isSalah = 0;
     int useBantuan = 0;
-    Leveling Leveling;
+    indeks Leveling;
     Backpropagation backpropagation;
     double paramWaktu, paramKesalahan, paramBantuan;
     int nextLevel, nextSurat, nextPuzzle;
@@ -327,6 +327,18 @@ public class PuzzleBoardActivity extends AppCompatActivity {
         }
     };
 
+    public void CallMethod(){
+        Backpropagation bp = new Backpropagation();
+        bp.UpdateWeights();
+        bp.start();
+        bp.set_delay(60);
+        bp.FeedForward();
+        bp.get_layers();
+        bp.load(namaGambarSelected);
+        bp.ActualOutput.clone();
+        bp.get_error();
+    }
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         requestWindowFeature(Window.FEATURE_NO_TITLE);
@@ -487,7 +499,7 @@ public class PuzzleBoardActivity extends AppCompatActivity {
                 Log.d("paramKesalahan: ", paramKesalahan + " = " + isSalah + "/(" + jumlahSoal + "+" + isSalah + ")");
                 Log.d("paramBantuan: ", paramBantuan + " = " + useBantuan + "/" + jumlahSoal);
 
-                Leveling = new Leveling();
+                Leveling = new indeks();
                 nextLevel = Leveling.getLevel(paramWaktu, paramKesalahan, paramBantuan);
                 nextPuzzle = curPuzzle + 1;
                 nextSurat = curSurat - 1;
