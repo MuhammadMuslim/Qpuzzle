@@ -1,4 +1,4 @@
-package itam.q_puzzle.helper;
+package itam.q_puzzle.method_engine;
 
 import java.io.Serializable;
 
@@ -20,7 +20,7 @@ public class Node implements Serializable
     // Threshold difference between the nth and the (n-1) iteration
     public    double  SignalError;
     // Output signal error
-    // InitialiseWeights function assigns a randomly
+    // InitialiseWeights itam.q_puzzle.function assigns a randomly
     // generated number, between -1 and 1, to the
     // Threshold and Weights to the current node
     private void InitialiseWeights() {

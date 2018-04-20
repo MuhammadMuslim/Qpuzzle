@@ -78,7 +78,9 @@
             android:id="@+id/rL_pzjawaban"
             android:layout_marginRight="50dp"
             android:layout_marginLeft="50dp">
-            <include layout="@layout/scroll_view_puzzle_jawaban" />
+            <include layout="@layout/scroll_view_puzzle_jawaban"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true" />
         </RelativeLayout>
 
         <ImageButton
@@ -101,13 +103,14 @@
     </RelativeLayout>
 
     <RelativeLayout
+        android:id="@+id/rL_pztengah"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:id="@+id/rL_pztengah"
-        android:layout_below="@+id/rL_pzatas"
-        android:layout_alignParentStart="true"
         android:layout_above="@+id/rL_pzbawah"
-        android:background="@color/colorAbu5">
-        <include layout="@layout/scroll_view_puzzle_soal"/>
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/rL_pzatas"
+        android:background="@color/colorAccent">
+
+        <include layout="@layout/scroll_view_puzzle_soal" />
     </RelativeLayout>
 </RelativeLayout>

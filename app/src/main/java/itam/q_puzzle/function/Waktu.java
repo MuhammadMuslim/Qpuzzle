@@ -1,4 +1,4 @@
-package itam.q_puzzle.helper;
+package itam.q_puzzle.function;
 
 /**
  * Created by M. ROMADLONI on 29-06-2016.

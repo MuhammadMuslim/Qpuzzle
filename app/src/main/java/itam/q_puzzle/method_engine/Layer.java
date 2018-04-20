@@ -1,4 +1,4 @@
-package itam.q_puzzle.helper;
+package itam.q_puzzle.method_engine;
 
 import java.io.Serializable;
 
@@ -14,7 +14,7 @@ import java.io.Serializable;
         // layer to the current layer
         public Node node[];
         // Vector of nodes in current layer
-        // The FeedForward function is called so that
+        // The FeedForward itam.q_puzzle.function is called so that
         // the outputs for all the nodes in the current
         // layer are calculated
         public void FeedForward() {
@@ -31,7 +31,7 @@ import java.io.Serializable;
             }
         }
 
-        // The Sigmoid function calculates the
+        // The Sigmoid itam.q_puzzle.function calculates the
 // activation/output from the current node
         private double Sigmoid (double Net) {
             return 1/(1+Math.exp(-Net));

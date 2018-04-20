@@ -28,16 +28,17 @@ import java.util.ArrayList;
 import java.util.List;
 
 import id.mromadloni.q_puzzle.R;
-import itam.q_puzzle.helper.Acak;
-import itam.q_puzzle.helper.DatabaseHelper;
-import itam.q_puzzle.helper.backpropagation;
-import itam.q_puzzle.model.BlokKosong;
-import itam.q_puzzle.model.Kata;
-import itam.q_puzzle.model.Level;
-import itam.q_puzzle.model.Settings;
-import itam.q_puzzle.model.Surat;
+import itam.q_puzzle.DBhelper.DatabaseHelper;
+import itam.q_puzzle.function.Acak;
+import itam.q_puzzle.function.Leveling;
+import itam.q_puzzle.method_engine.Backpropagation;
+import itam.q_puzzle.model_activity.BlokKosong;
+import itam.q_puzzle.model_activity.Kata;
+import itam.q_puzzle.model_activity.Level;
+import itam.q_puzzle.model_activity.Settings;
+import itam.q_puzzle.model_activity.Surat;
 
-//import FISSugeno;
+//import Leveling;
 
 /**
  * Created by M. ROMADLONI on 18-06-2016.
@@ -61,7 +62,8 @@ public class PuzzleBoardActivity extends AppCompatActivity {
     int waktu = 0;
     int isSalah = 0;
     int useBantuan = 0;
-//    FISSugeno FISSugeno;
+    Leveling Leveling;
+    Backpropagation backpropagation;
     double paramWaktu, paramKesalahan, paramBantuan;
     int nextLevel, nextSurat, nextPuzzle;
     String nilaiNotif;
@@ -485,13 +487,11 @@ public class PuzzleBoardActivity extends AppCompatActivity {
                 Log.d("paramKesalahan: ", paramKesalahan + " = " + isSalah + "/(" + jumlahSoal + "+" + isSalah + ")");
                 Log.d("paramBantuan: ", paramBantuan + " = " + useBantuan + "/" + jumlahSoal);
 
-                backpropagation bp = new backpropagation();
-                //pencarian proses
-                bp.FeedForward();
-                // bobot node
-                bp.UpdateWeights();
-                //waktu delay per sekon
-                bp.set_delay(60);
+                Leveling = new Leveling();
+                nextLevel = Leveling.getLevel(paramWaktu, paramKesalahan, paramBantuan);
+                nextPuzzle = curPuzzle + 1;
+                nextSurat = curSurat - 1;
+
                 nextPuzzle = curPuzzle + 1;
                 nextSurat = curSurat - 1;
 
@@ -548,4 +548,6 @@ public class PuzzleBoardActivity extends AppCompatActivity {
             }
         }, 2000);
     }
+
+
 }

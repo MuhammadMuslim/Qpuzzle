@@ -1,4 +1,4 @@
-package itam.q_puzzle;
+package itam.q_puzzle.DBhelper;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -6,12 +6,12 @@ import android.os.Bundle;
 import android.util.Log;
 
 import id.mromadloni.q_puzzle.R;
-import itam.q_puzzle.helper.DatabaseHelper;
-import itam.q_puzzle.model.BlokKosong;
-import itam.q_puzzle.model.Kata;
-import itam.q_puzzle.model.Level;
-import itam.q_puzzle.model.Settings;
-import itam.q_puzzle.model.Surat;
+import itam.q_puzzle.MenuUtamaActivity;
+import itam.q_puzzle.model_activity.BlokKosong;
+import itam.q_puzzle.model_activity.Kata;
+import itam.q_puzzle.model_activity.Level;
+import itam.q_puzzle.model_activity.Settings;
+import itam.q_puzzle.model_activity.Surat;
 
 /**
  * Created by M. ROMADLONI on 18-06-2016.

@@ -1,4 +1,4 @@
-package itam.q_puzzle.model;
+package itam.q_puzzle.model_activity;
 
 /**
  * Created by M. ROMADLONI on 18-06-2016.

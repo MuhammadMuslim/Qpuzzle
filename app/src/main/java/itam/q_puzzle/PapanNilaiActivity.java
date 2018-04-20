@@ -15,9 +15,9 @@ import com.linearlistview.LinearListView;
 import java.util.List;
 
 import id.mromadloni.q_puzzle.R;
-import itam.q_puzzle.helper.DatabaseHelper;
-import itam.q_puzzle.helper.Waktu;
-import itam.q_puzzle.model.Nilai;
+import itam.q_puzzle.DBhelper.DatabaseHelper;
+import itam.q_puzzle.function.Waktu;
+import itam.q_puzzle.model_activity.Nilai;
 
 /**
  * Created by M. ROMADLONI on 27-06-2016.
@@ -58,10 +58,10 @@ public class PapanNilaiActivity extends AppCompatActivity {
 
                 convertView = getLayoutInflater().inflate(R.layout.item_list_nilai, parent, false);
                 holder = new ViewHolder();
-                holder.textNomor = (TextView) convertView.findViewById(R.id.tV_sbnomor);
-                holder.textNama = (TextView) convertView.findViewById(R.id.tV_sbnama);
-                holder.textNilai = (TextView) convertView.findViewById(R.id.tV_sbnilai);
-                holder.textWaktu = (TextView) convertView.findViewById(R.id.tV_sbwaktu);
+                holder.textNomor = convertView.findViewById(R.id.tV_sbnomor);
+                holder.textNama = convertView.findViewById(R.id.tV_sbnama);
+                holder.textNilai = convertView.findViewById(R.id.tV_sbnilai);
+                holder.textWaktu = convertView.findViewById(R.id.tV_sbwaktu);
                 convertView.setTag(holder);
             }
 

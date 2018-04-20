@@ -15,11 +15,11 @@ import android.widget.EditText;
 import android.widget.TextView;
 
 import id.mromadloni.q_puzzle.R;
-import itam.q_puzzle.helper.DatabaseHelper;
-import itam.q_puzzle.helper.Waktu;
-import itam.q_puzzle.model.Level;
-import itam.q_puzzle.model.Settings;
-import itam.q_puzzle.model.Surat;
+import itam.q_puzzle.DBhelper.DatabaseHelper;
+import itam.q_puzzle.function.Waktu;
+import itam.q_puzzle.model_activity.Level;
+import itam.q_puzzle.model_activity.Settings;
+import itam.q_puzzle.model_activity.Surat;
 
 /**
  * Created by M. ROMADLONI on 30-06-2016.

@@ -1,4 +1,4 @@
-package itam.q_puzzle.helper;
+package itam.q_puzzle.function;
 
 import java.util.ArrayList;
 import java.util.Random;
