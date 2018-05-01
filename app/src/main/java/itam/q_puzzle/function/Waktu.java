@@ -1,7 +1,7 @@
 package itam.q_puzzle.function;
 
 /**
- * Created by M. ROMADLONI on 29-06-2016.
+ * Created by Muslim muslim on 4/10/2018.
  */
 public class Waktu {
 

@@ -41,7 +41,7 @@ import itam.q_puzzle.model.Surat;
 //import indeks;
 
 /**
- * Created by M. ROMADLONI on 18-06-2016.
+ * Created by Muslim muslim on 4/10/2018.
  */
 public class PuzzleBoardActivity extends AppCompatActivity {
 

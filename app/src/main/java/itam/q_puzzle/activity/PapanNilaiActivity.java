@@ -20,7 +20,7 @@ import itam.q_puzzle.function.Waktu;
 import itam.q_puzzle.model.Nilai;
 
 /**
- * Created by M. ROMADLONI on 27-06-2016.
+ * Created by Muslim muslim on 4/10/2018.
  */
 public class PapanNilaiActivity extends AppCompatActivity {
 

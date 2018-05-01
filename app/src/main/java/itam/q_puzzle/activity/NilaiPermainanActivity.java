@@ -21,7 +21,7 @@ import itam.q_puzzle.model.Nilai;
 import itam.q_puzzle.model.Settings;
 
 /**
- * Created by M. ROMADLONI on 22-06-2016.
+ * Created by Muslim muslim on 4/10/2018.
  */
 public class NilaiPermainanActivity extends AppCompatActivity {
 

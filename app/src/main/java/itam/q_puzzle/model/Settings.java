@@ -1,7 +1,7 @@
 package itam.q_puzzle.model;
 
 /**
- * Created by M. ROMADLONI on 20-06-2016.
+ * Created by Muslim muslim on 4/10/2018.
  */
 public class Settings {
 

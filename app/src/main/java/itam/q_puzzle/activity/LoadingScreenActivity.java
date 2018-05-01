@@ -22,7 +22,7 @@ import itam.q_puzzle.DBhelper.DatabaseHelper;
 import itam.q_puzzle.model.Settings;
 
 /**
- * Created by M. ROMADLONI on 17-06-2016.
+ * Created by Muslim muslim on 4/10/2018.
  */
 public class LoadingScreenActivity extends AppCompatActivity {
 

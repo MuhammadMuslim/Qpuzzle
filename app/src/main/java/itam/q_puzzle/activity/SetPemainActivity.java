@@ -22,7 +22,7 @@ import itam.q_puzzle.model.Settings;
 import itam.q_puzzle.model.Surat;
 
 /**
- * Created by M. ROMADLONI on 30-06-2016.
+ * Created by Muslim muslim on 4/10/2018.
  */
 public class SetPemainActivity extends AppCompatActivity {
 
