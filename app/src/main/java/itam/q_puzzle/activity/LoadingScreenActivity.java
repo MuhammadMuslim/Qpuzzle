@@ -1,4 +1,4 @@
-package itam.q_puzzle;
+package itam.q_puzzle.activity;
 
 import android.content.Context;
 import android.content.Intent;
@@ -19,7 +19,7 @@ import android.widget.TextView;
 
 import id.mromadloni.q_puzzle.R;
 import itam.q_puzzle.DBhelper.DatabaseHelper;
-import itam.q_puzzle.model_activity.Settings;
+import itam.q_puzzle.model.Settings;
 
 /**
  * Created by M. ROMADLONI on 17-06-2016.

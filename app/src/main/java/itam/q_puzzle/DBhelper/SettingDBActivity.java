@@ -6,12 +6,12 @@ import android.os.Bundle;
 import android.util.Log;
 
 import id.mromadloni.q_puzzle.R;
-import itam.q_puzzle.MenuUtamaActivity;
-import itam.q_puzzle.model_activity.BlokKosong;
-import itam.q_puzzle.model_activity.Kata;
-import itam.q_puzzle.model_activity.Level;
-import itam.q_puzzle.model_activity.Settings;
-import itam.q_puzzle.model_activity.Surat;
+import itam.q_puzzle.activity.MenuUtamaActivity;
+import itam.q_puzzle.model.BlokKosong;
+import itam.q_puzzle.model.Kata;
+import itam.q_puzzle.model.Level;
+import itam.q_puzzle.model.Settings;
+import itam.q_puzzle.model.Surat;
 
 /**
  * Created by M. ROMADLONI on 18-06-2016.

@@ -2,245 +2,246 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/colorAbu2">
+    android:background="@drawable/lslayout">
 
     <RelativeLayout
+        android:id="@+id/rL_npnilaitotal"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="@drawable/npnilaitotal"
-        android:layout_marginTop="20dp"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:id="@+id/rL_npnilaitotal">
+        android:layout_marginTop="20dp"
+        android:background="@drawable/npnilaitotal">
 
         <TextView
+            android:id="@+id/tV_npnilaitotal"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
             android:text="0000"
-            android:id="@+id/tV_npnilaitotal"
-            android:textStyle="bold"
             android:textAlignment="center"
             android:textSize="30dp"
-            android:layout_centerVertical="true"
-            android:layout_centerHorizontal="true" />
+            android:textStyle="bold" />
     </RelativeLayout>
 
     <ImageView
+        android:id="@+id/iV_nplevel"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/iV_nplevel"
-        android:src="@drawable/nplevel1"
         android:layout_alignTop="@+id/rL_npnilaitotal"
-        android:paddingTop="6dp"
+        android:layout_marginStart="-12dp"
         android:layout_toEndOf="@+id/rL_npnilaitotal"
-        android:layout_marginStart="-12dp"/>
+        android:paddingTop="6dp"
+        android:src="@drawable/nplevel1" />
 
     <ImageView
+        android:id="@+id/iV_npsurat"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/iV_npsurat"
-        android:src="@drawable/npsurat114"
         android:layout_alignTop="@+id/rL_npnilaitotal"
-        android:paddingTop="6dp"
+        android:layout_marginEnd="-12dp"
         android:layout_toStartOf="@+id/rL_npnilaitotal"
-        android:layout_marginEnd="-12dp"/>
+        android:paddingTop="6dp"
+        android:src="@drawable/npsurat114" />
 
     <RelativeLayout
+        android:id="@+id/rL_npnilai"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/rL_npnilaitotal"
-        android:background="@drawable/npnilai"
-        android:id="@+id/rL_npnilai"
-        android:layout_marginTop="10dp"
         android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/npnilai"
         android:layoutDirection="rtl">
 
         <TextView
+            android:id="@+id/tV_npnilai"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="0000"
-            android:id="@+id/tV_npnilai"
-            android:textStyle="bold"
+            android:layout_centerVertical="true"
             android:paddingRight="4dp"
+            android:text="0000"
             android:textSize="13dp"
-            android:layout_centerVertical="true"/>
+            android:textStyle="bold" />
     </RelativeLayout>
 
     <RelativeLayout
+        android:id="@+id/rL_npwaktu"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/rL_npnilai"
-        android:background="@drawable/npwaktu"
-        android:id="@+id/rL_npwaktu"
-        android:layout_marginTop="4dp"
         android:layout_centerHorizontal="true"
+        android:layout_marginTop="4dp"
+        android:background="@drawable/npwaktu"
         android:layoutDirection="rtl">
 
         <TextView
+            android:id="@+id/tV_npwaktu"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="00:00"
-            android:id="@+id/tV_npwaktu"
-            android:textStyle="bold"
+            android:layout_centerVertical="true"
             android:paddingRight="4dp"
+            android:text="00:00"
             android:textSize="13dp"
-            android:layout_centerVertical="true"/>
+            android:textStyle="bold" />
     </RelativeLayout>
 
     <RelativeLayout
+        android:id="@+id/rL_npsalah"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/rL_npwaktu"
-        android:background="@drawable/npsalah"
-        android:id="@+id/rL_npsalah"
-        android:layout_marginTop="4dp"
         android:layout_centerHorizontal="true"
+        android:layout_marginTop="4dp"
+        android:background="@drawable/npsalah"
         android:layoutDirection="rtl">
 
         <TextView
+            android:id="@+id/tV_npsalah"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="00"
-            android:id="@+id/tV_npsalah"
-            android:textStyle="bold"
+            android:layout_centerVertical="true"
             android:paddingRight="4dp"
+            android:text="00"
             android:textSize="13dp"
-            android:layout_centerVertical="true"/>
+            android:textStyle="bold" />
     </RelativeLayout>
 
     <RelativeLayout
+        android:id="@+id/rL_npbantuan"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/rL_npsalah"
-        android:background="@drawable/npbantuan"
-        android:id="@+id/rL_npbantuan"
-        android:layout_marginTop="4dp"
         android:layout_centerHorizontal="true"
+        android:layout_marginTop="4dp"
+        android:background="@drawable/npbantuan"
         android:layoutDirection="rtl">
 
         <TextView
+            android:id="@+id/tV_npbantuan"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="00"
-            android:id="@+id/tV_npbantuan"
-            android:textStyle="bold"
+            android:layout_centerVertical="true"
             android:paddingRight="4dp"
+            android:text="00"
             android:textSize="13dp"
-            android:layout_centerVertical="true"/>
+            android:textStyle="bold" />
     </RelativeLayout>
+
     <RelativeLayout
+        android:id="@+id/rL_npbonus"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/rL_npbantuan"
-        android:background="@drawable/npbonus"
-        android:id="@+id/rL_npbonus"
-        android:layout_marginTop="4dp"
         android:layout_centerHorizontal="true"
+        android:layout_marginTop="4dp"
+        android:background="@drawable/npbonus"
         android:layoutDirection="rtl">
 
         <TextView
+            android:id="@+id/tV_npbonus"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="0000"
-            android:id="@+id/tV_npbonus"
-            android:textStyle="bold"
+            android:layout_centerVertical="true"
             android:paddingRight="4dp"
+            android:text="0000"
             android:textSize="13dp"
-            android:layout_centerVertical="true"/>
+            android:textStyle="bold" />
     </RelativeLayout>
 
     <RelativeLayout
+        android:id="@+id/rL_nptotalnilai"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/rL_npbonus"
+        android:layout_centerHorizontal="true"
         android:layout_marginTop="16dp"
         android:background="@drawable/nptotalnilai"
-        android:id="@+id/rL_nptotalnilai"
-        android:layout_centerHorizontal="true"
         android:layoutDirection="rtl">
 
         <TextView
+            android:id="@+id/tV_nptotalnilai"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="00000"
-            android:id="@+id/tV_nptotalnilai"
-            android:textStyle="bold"
+            android:layout_centerVertical="true"
             android:paddingRight="5dp"
+            android:text="00000"
             android:textSize="17dp"
-            android:layout_centerVertical="true"/>
+            android:textStyle="bold" />
     </RelativeLayout>
 
     <RelativeLayout
+        android:id="@+id/rL_nptotalwaktu"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/rL_nptotalnilai"
+        android:layout_centerHorizontal="true"
         android:layout_marginTop="4dp"
         android:background="@drawable/nptotalwaktu"
-        android:id="@+id/rL_nptotalwaktu"
-        android:layout_centerHorizontal="true"
         android:layoutDirection="rtl">
 
         <TextView
+            android:id="@+id/tV_nptotalwaktu"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="00:00:00"
-            android:id="@+id/tV_nptotalwaktu"
-            android:textStyle="bold"
+            android:layout_centerVertical="true"
             android:paddingRight="5dp"
+            android:text="00:00:00"
             android:textSize="17dp"
-            android:layout_centerVertical="true"/>
+            android:textStyle="bold" />
     </RelativeLayout>
 
     <ImageView
+        android:id="@+id/iV_npselanjutnya"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/rL_nptotalwaktu"
+        android:layout_centerHorizontal="true"
         android:layout_marginTop="22dp"
-        android:id="@+id/iV_npselanjutnya"
-        android:background="@drawable/npselanjutnya"
-        android:layout_centerHorizontal="true"/>
+        android:background="@drawable/npselanjutnya" />
 
     <RelativeLayout
+        android:id="@+id/rL_nppuzzlelevelselanjutnya"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/iV_npselanjutnya"
-        android:layout_marginTop="4dp"
         android:layout_centerHorizontal="true"
-        android:id="@+id/rL_nppuzzlelevelselanjutnya">
+        android:layout_marginTop="4dp">
 
         <ImageView
+            android:id="@+id/iV_nppuzzleselanjutnya"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/iV_nppuzzleselanjutnya"
             android:src="@drawable/nppuzzleselanjutnya1" />
 
         <ImageView
+            android:id="@+id/iV_nplevelselanjutnya"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/iV_nplevelselanjutnya"
-            android:src="@drawable/nplevelselanjutnya1"
+            android:layout_marginStart="-12dp"
             android:layout_toRightOf="@id/iV_nppuzzleselanjutnya"
-            android:layout_marginStart="-12dp"/>
+            android:src="@drawable/nplevelselanjutnya1" />
     </RelativeLayout>
 
     <ImageButton
+        android:id="@+id/iB_nppengaturan"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/iB_nppengaturan"
-        android:src="@drawable/npbuttonpengaturan"
-        android:layout_toStartOf="@+id/rL_nppuzzlelevelselanjutnya"
         android:layout_alignBottom="@id/rL_nppuzzlelevelselanjutnya"
         android:layout_marginRight="20dp"
-        android:background="?android:attr/selectableItemBackground" />
+        android:layout_toStartOf="@+id/rL_nppuzzlelevelselanjutnya"
+        android:background="?android:attr/selectableItemBackground"
+        android:src="@drawable/npbuttonpengaturan" />
 
     <ImageButton
+        android:id="@+id/iB_npselanjutnya"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/iB_npselanjutnya"
-        android:src="@drawable/npbuttonselanjutnya"
-        android:layout_toEndOf="@+id/rL_nppuzzlelevelselanjutnya"
         android:layout_alignBottom="@id/rL_nppuzzlelevelselanjutnya"
         android:layout_marginLeft="20dp"
-        android:background="?android:attr/selectableItemBackground" />
+        android:layout_toEndOf="@+id/rL_nppuzzlelevelselanjutnya"
+        android:background="?android:attr/selectableItemBackground"
+        android:src="@drawable/npbuttonselanjutnya" />
 
 </RelativeLayout>

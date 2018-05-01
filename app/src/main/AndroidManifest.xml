@@ -18,25 +18,25 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="itam.q_puzzle.MenuUtamaActivity"
+            android:name="itam.q_puzzle.activity.MenuUtamaActivity"
             android:screenOrientation="landscape" />
         <activity
-            android:name="itam.q_puzzle.SetPemainActivity"
+            android:name="itam.q_puzzle.activity.SetPemainActivity"
             android:screenOrientation="landscape" />
         <activity
-            android:name="itam.q_puzzle.LoadingScreenActivity"
+            android:name="itam.q_puzzle.activity.LoadingScreenActivity"
             android:screenOrientation="landscape" />
         <activity
-            android:name="itam.q_puzzle.PuzzleBoardActivity"
+            android:name="itam.q_puzzle.activity.PuzzleBoardActivity"
             android:screenOrientation="landscape" />
         <activity
-            android:name="itam.q_puzzle.NilaiPermainanActivity"
+            android:name="itam.q_puzzle.activity.NilaiPermainanActivity"
             android:screenOrientation="landscape" />
         <activity
-            android:name="itam.q_puzzle.PapanNilaiActivity"
+            android:name="itam.q_puzzle.activity.PapanNilaiActivity"
             android:screenOrientation="landscape" />
         <activity
-            android:name="itam.q_puzzle.Setting_Help"
+            android:name="itam.q_puzzle.activity.Setting_Help"
             android:label="help"
             android:screenOrientation="landscape">
         </activity>

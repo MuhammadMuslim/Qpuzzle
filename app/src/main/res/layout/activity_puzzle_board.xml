@@ -3,103 +3,106 @@
     android:layout_width="match_parent" android:layout_height="match_parent">
 
     <RelativeLayout
+        android:id="@+id/rL_pzatas"
         android:layout_width="match_parent"
         android:layout_height="48dp"
-        android:background="@color/colorAbu3"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:id="@+id/rL_pzatas">
+        android:background="@android:color/background_light">
 
         <RelativeLayout
+            android:id="@+id/rL_pznilai"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:id="@+id/rL_pznilai"
-            android:background="@drawable/pznilai"
+            android:layout_alignParentStart="true"
             android:layout_centerVertical="true"
-            android:layout_alignParentStart="true">
+            android:background="@drawable/pznilai">
 
             <TextView
+                android:id="@+id/tV_pznilai"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:paddingRight="14dp"
                 android:text="0"
-                android:textSize="30dp"
-                android:textStyle="bold"
                 android:textAlignment="center"
                 android:textColor="@color/colorAbu5"
-                android:id="@+id/tV_pznilai"
-                android:paddingRight="14dp"
-                android:layout_centerVertical="true"
-                android:layout_centerHorizontal="true" />
+                android:textSize="30dp"
+                android:textStyle="bold" />
         </RelativeLayout>
 
         <RelativeLayout
+            android:id="@+id/rL_pzwaktu"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:id="@+id/rL_pzwaktu"
-            android:background="@drawable/pzwaktu"
+            android:layout_alignParentEnd="true"
             android:layout_centerVertical="true"
-            android:layout_alignParentEnd="true">
+            android:background="@drawable/pzwaktu">
 
             <TextView
+                android:id="@+id/tV_pzwaktu"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:paddingLeft="14dp"
                 android:text="00:00"
-                android:textSize="30dp"
-                android:textStyle="bold"
                 android:textAlignment="center"
                 android:textColor="@color/colorAbu5"
-                android:id="@+id/tV_pzwaktu"
-                android:paddingLeft="14dp"
-                android:layout_centerVertical="true"
-                android:layout_centerHorizontal="true" />
+                android:textSize="30dp"
+                android:textStyle="bold" />
         </RelativeLayout>
 
         <ImageView
+            android:id="@+id/iV_pzjudul"
             android:layout_width="wrap_content"
             android:layout_height="42dp"
-            android:id="@+id/iV_pzjudul"
-            android:src="@drawable/pzjd114"
+            android:layout_centerHorizontal="true"
             android:layout_centerVertical="true"
-            android:layout_centerHorizontal="true" />
+            android:src="@drawable/pzjd114" />
     </RelativeLayout>
 
     <RelativeLayout
+        android:id="@+id/rL_pzbawah"
         android:layout_width="match_parent"
         android:layout_height="60dp"
-        android:background="@color/colorAbu4"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:id="@+id/rL_pzbawah">
+        android:background="@android:color/background_light">
 
         <RelativeLayout
+            android:id="@+id/rL_pzjawaban"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:gravity="center"
-            android:id="@+id/rL_pzjawaban"
+            android:layout_marginLeft="50dp"
             android:layout_marginRight="50dp"
-            android:layout_marginLeft="50dp">
-            <include layout="@layout/scroll_view_puzzle_jawaban"
+            android:background="@android:color/transparent"
+            android:gravity="center">
+
+            <include
+                layout="@layout/scroll_view_puzzle_jawaban"
                 android:layout_alignParentTop="true"
                 android:layout_centerHorizontal="true" />
         </RelativeLayout>
 
         <ImageButton
+            android:id="@+id/iB_pzbantuan"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:id="@+id/iB_pzbantuan"
-            android:src="@drawable/pzbantuan"
-            android:layout_centerVertical="true"
             android:layout_alignParentStart="true"
-            android:background="?android:attr/selectableItemBackground"/>
+            android:layout_centerVertical="true"
+            android:background="?android:attr/selectableItemBackground"
+            android:src="@drawable/pzbantuan" />
 
         <ImageButton
+            android:id="@+id/iB_pzmenu"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:id="@+id/iB_pzmenu"
-            android:src="@drawable/pzmenu"
-            android:layout_centerVertical="true"
             android:layout_alignParentEnd="true"
-            android:background="?android:attr/selectableItemBackground"/>
+            android:layout_centerVertical="true"
+            android:background="?android:attr/selectableItemBackground"
+            android:src="@drawable/pzmenu" />
     </RelativeLayout>
 
     <RelativeLayout
@@ -109,7 +112,7 @@
         android:layout_above="@+id/rL_pzbawah"
         android:layout_alignParentStart="true"
         android:layout_below="@+id/rL_pzatas"
-        android:background="@color/colorAccent">
+        android:background="@drawable/lslayout">
 
         <include layout="@layout/scroll_view_puzzle_soal" />
     </RelativeLayout>

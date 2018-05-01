@@ -1,4 +1,4 @@
-package itam.q_puzzle;
+package itam.q_puzzle.activity;
 
 import android.content.Context;
 import android.os.Bundle;
@@ -17,7 +17,7 @@ import java.util.List;
 import id.mromadloni.q_puzzle.R;
 import itam.q_puzzle.DBhelper.DatabaseHelper;
 import itam.q_puzzle.function.Waktu;
-import itam.q_puzzle.model_activity.Nilai;
+import itam.q_puzzle.model.Nilai;
 
 /**
  * Created by M. ROMADLONI on 27-06-2016.

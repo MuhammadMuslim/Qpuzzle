@@ -1,4 +1,4 @@
-package itam.q_puzzle;
+package itam.q_puzzle.activity;
 
 import android.content.Context;
 import android.content.DialogInterface;

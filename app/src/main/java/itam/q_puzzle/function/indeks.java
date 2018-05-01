@@ -3,7 +3,7 @@ package itam.q_puzzle.function;
 /**
  * Created by M. ROMADLONI on 19-06-2016.
  */
-public class Leveling {
+public class indeks {
 
     double waktu;
     double kesalahan;
