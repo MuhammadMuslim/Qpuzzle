@@ -3,12 +3,12 @@
     <color name="colorPrimary">#ffb53d</color>
     <color name="colorPrimaryDark">#ffb53d</color>
     <color name="colorAccent">#ffb53d</color>
-    <color name="colorAbu1">#C6C6C6</color>
-    <color name="colorAbu2">#444444</color>
-    <color name="colorAbu3">#aaaaaa</color>
-    <color name="colorAbu4">#cdd1d2</color>
-    <color name="colorAbu5">#e2e2e2</color>
-    <color name="colorAbu6">#eaeaea</color>
-    <color name="colorAbuBlank">#b4b4b4</color>
-    <color name="colorAbuSelect">#808080</color>
+    <color name="colorAbu1">#ffffff</color>
+    <color name="colorAbu2">#ffffff</color>
+    <color name="colorAbu3">#fffefe</color>
+    <color name="colorAbu4">#ffffff</color>
+    <color name="colorAbu5">#fffefe</color>
+    <color name="colorAbu6">#ffffff</color>
+    <color name="colorAbuBlank">#14be0b</color>
+    <color name="colorAbuSelect">#ffffff</color>
 </resources>
