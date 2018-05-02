@@ -5,10 +5,6 @@ package itam.q_puzzle.function;
  */
 public class Waktu {
 
-    public Waktu() {
-
-    }
-
     public String getWaktuMenit(int waktuDetik) {
 
         int menit = waktuDetik/60;
@@ -27,5 +23,9 @@ public class Waktu {
         String waktu = String.format("%02d:%02d:%02d", jam, menit, detik);
 
         return waktu;
+    }
+
+    public Waktu() {
+
     }
 }

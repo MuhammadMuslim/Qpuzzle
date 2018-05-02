@@ -72,7 +72,6 @@ public class LoadingScreenActivity extends AppCompatActivity {
     }
 
     private class ProgressTask extends AsyncTask<Integer,Integer,Void> {
-
         protected void onPreExecute() {
             PBLS.setMax(100); // set maximum progress to 100.
         }

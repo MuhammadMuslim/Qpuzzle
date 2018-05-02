@@ -256,7 +256,7 @@ public class Backpropagation extends  Thread  implements Serializable
             os.writeObject(this);
             os.close();
             fos.close();
-            System.out.println("Network Saved!!!!");
+            System.out.println("Saved!!!!");
         }
         catch (IOException E){System.out.println(E.toString());}
         catch (Exception e){System.out.println(e.toString());}
@@ -296,7 +296,7 @@ public class Backpropagation extends  Thread  implements Serializable
         File Net_File = new File(Environment.getExternalStorageDirectory(),"Number_Recognition_1.ser");
         save(Net_File.getAbsolutePath());
         System.out.println( "DONE TRAINING\n");
-        System.out.println("With Network ERROR = "+Double.toString(get_error())+"\n");
+        System.out.println("With ERROR = "+Double.toString(get_error())+"\n");
     } // run()
 
     // to notify the network to stop training.
