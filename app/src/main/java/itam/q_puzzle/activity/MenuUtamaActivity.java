@@ -43,7 +43,7 @@ public class MenuUtamaActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-                Intent intent = new Intent(context, NilaiPermainanActivity.class);
+                Intent intent = new Intent(context, Listview_surah.class);
                 startActivity(intent);
             }
         });

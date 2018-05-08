@@ -40,6 +40,11 @@ public class SettingDBActivity extends Activity {
         Surat surat107 = new Surat(107, "AL-MA'UN", 7, 25, 8);
         Surat surat106 = new Surat(106, "QURAYSH", 4, 17, 9);
         Surat surat105 = new Surat(105, "AL-FIL", 5, 23, 10);
+        Surat surat104 = new Surat(105, "AL-HUMAZAH", 9, 29, 11);
+        Surat surat103 = new Surat(105, "AL-ASR", 3, 13, 12);
+        Surat surat102 = new Surat(105, "AL-TAKASUR", 8, 28, 13);
+        Surat surat101 = new Surat(105, "AL-QORIAH", 11, 31, 14);
+        Surat surat100 = new Surat(105, "AL-ADIYAT", 11, 29, 15);
 
         // Inserting Surat in db
         long surat114_id = db.createSurat(surat114);
@@ -52,6 +57,11 @@ public class SettingDBActivity extends Activity {
         long surat107_id = db.createSurat(surat107);
         long surat106_id = db.createSurat(surat106);
         long surat105_id = db.createSurat(surat105);
+        long surat104_id = db.createSurat(surat104);
+        long surat103_id = db.createSurat(surat103);
+        long surat102_id = db.createSurat(surat102);
+        long surat101_id = db.createSurat(surat101);
+        long surat100_id = db.createSurat(surat100);
 
         Log.d("Surat Count", "Surat Count: " + db.getAllSurat().size());
 
@@ -289,6 +299,165 @@ public class SettingDBActivity extends Activity {
         Kata kata1050502 = new Kata(200, 105, 5, 2, "1050502", 22);
         Kata kata1050503 = new Kata(201, 105, 5, 3, "1050503", 23);
 
+        // 104 - al-humazah
+        //blm gnti index get drwbl
+        Kata kata1040101 = new Kata(202, 104, 1, 1, "105xx01", 1);
+        Kata kata1040102 = new Kata(203, 104, 1, 2, "1050102", 2);
+        Kata kata1040103 = new Kata(204, 104, 1, 3, "1050103", 3);
+        Kata kata1040201 = new Kata(205, 104, 2, 1, "1050104", 4);
+        Kata kata1040202 = new Kata(206, 104, 2, 2, "1050105", 5);
+        Kata kata1040203 = new Kata(207, 104, 2, 3, "1050106", 6);
+        Kata kata1040204 = new Kata(208, 104, 2, 4, "1050107", 7);
+        Kata kata1040301 = new Kata(209, 104, 3, 1, "105xx01", 8);
+        Kata kata1040302 = new Kata(210, 104, 3, 2, "1050202", 9);
+        Kata kata1040303 = new Kata(211, 104, 3, 3, "1050203", 10);
+        Kata kata1040304 = new Kata(212, 104, 3, 4, "1050204", 11);
+        Kata kata1040401 = new Kata(213, 104, 4, 1, "1050205", 12);
+        Kata kata1040402 = new Kata(214, 104, 4, 2, "1050301", 13);
+        Kata kata1040403 = new Kata(215, 104, 4, 3, "1050302", 14);
+        Kata kata1040404 = new Kata(216, 104, 4, 4, "1050303", 15);
+        Kata kata1040501 = new Kata(217, 104, 5, 1, "1050304", 16);
+        Kata kata1040502 = new Kata(218, 104, 5, 2, "1050401", 17);
+        Kata kata1040503 = new Kata(219, 104, 5, 3, "1050402", 18);
+        Kata kata1040504 = new Kata(220, 104, 5, 4, "1050403", 19);
+        Kata kata1040601 = new Kata(221, 104, 6, 1, "1050404", 20);
+        Kata kata1040602 = new Kata(222, 104, 6, 2, "1050501", 21);
+        Kata kata1040701 = new Kata(223, 104, 7, 1, "1050502", 22);
+        Kata kata1040702 = new Kata(224, 104, 7, 2, "1050503", 23);
+        Kata kata1040703 = new Kata(225, 104, 7, 3, "1050503", 24);
+        Kata kata1040704 = new Kata(226, 104, 7, 4, "1050503", 25);
+        Kata kata1040801 = new Kata(227, 104, 8, 1, "1050503", 26);
+        Kata kata1040802 = new Kata(228, 104, 8, 2, "1050503", 27);
+        Kata kata1040803 = new Kata(229, 104, 8, 3, "1050503", 28);
+        Kata kata1040901 = new Kata(230, 104, 9, 1, "1050503", 29);
+        Kata kata1040902 = new Kata(231, 104, 9, 2, "1050503", 30);
+        Kata kata1040903 = new Kata(232, 104, 9, 3, "1050503", 31);
+
+        // 103 - al-asr
+        //blm gnti index get drwbl
+        Kata kata1030101 = new Kata(233, 103, 1, 1, "105xx01", 1);
+        Kata kata1030201 = new Kata(234, 103, 2, 1, "1050102", 2);
+        Kata kata1030202 = new Kata(235, 103, 2, 2, "1050103", 3);
+        Kata kata1030203 = new Kata(236, 103, 2, 3, "1050104", 4);
+        Kata kata1030204 = new Kata(237, 103, 2, 4, "1050105", 5);
+        Kata kata1030301 = new Kata(238, 103, 3, 1, "1050106", 6);
+        Kata kata1030302 = new Kata(239, 103, 3, 2, "1050107", 7);
+        Kata kata1030303 = new Kata(240, 103, 3, 3, "105xx01", 8);
+        Kata kata1030304 = new Kata(241, 103, 3, 4, "1050202", 9);
+        Kata kata1030305 = new Kata(242, 103, 3, 5, "1050203", 10);
+        Kata kata1030306 = new Kata(243, 103, 3, 6, "1050204", 11);
+        Kata kata1030307 = new Kata(244, 103, 4, 7, "1050205", 12);
+        Kata kata1030308 = new Kata(245, 103, 4, 8, "1050301", 13);
+        Kata kata1030309 = new Kata(246, 103, 4, 9, "1050302", 14);
+
+        // 102 - al-atakasur
+        //blm gnti index get drwbl
+        Kata kata1020101 = new Kata(233, 102, 1, 1, "105xx01", 1);
+        Kata kata1020102 = new Kata(234, 102, 1, 2, "1050102", 2);
+        Kata kata1020201 = new Kata(235, 102, 2, 1, "1050103", 3);
+        Kata kata1020202 = new Kata(236, 102, 2, 2, "1050104", 4);
+        Kata kata1020203 = new Kata(237, 102, 2, 3, "1050105", 5);
+        Kata kata1020301 = new Kata(238, 102, 3, 1, "1050106", 6);
+        Kata kata1020302 = new Kata(239, 102, 3, 2, "1050107", 7);
+        Kata kata1020303 = new Kata(240, 102, 3, 3, "105xx01", 8);
+        Kata kata1020401 = new Kata(241, 102, 4, 1, "1050202", 9);
+        Kata kata1020402 = new Kata(242, 102, 4, 2, "1050203", 10);
+        Kata kata1020403 = new Kata(243, 102, 4, 3, "1050204", 11);
+        Kata kata1020404 = new Kata(244, 102, 4, 4, "1050205", 12);
+        Kata kata1020501 = new Kata(245, 102, 5, 1, "1050301", 13);
+        Kata kata1020502 = new Kata(246, 102, 5, 2, "1050302", 14);
+        Kata kata1020503 = new Kata(247, 102, 5, 3, "1050302", 15);
+        Kata kata1020504 = new Kata(248, 102, 5, 4, "1050302", 16);
+        Kata kata1020601 = new Kata(249, 102, 6, 1, "1050302", 17);
+        Kata kata1020602 = new Kata(250, 102, 6, 2, "1050302", 18);
+        Kata kata1020701 = new Kata(251, 102, 7, 1, "1050302", 19);
+        Kata kata1020702 = new Kata(252, 102, 7, 2, "1050302", 20);
+        Kata kata1020703 = new Kata(253, 102, 7, 3, "1050302", 21);
+        Kata kata1020704 = new Kata(254, 102, 7, 4, "1050302", 22);
+        Kata kata1020801 = new Kata(255, 102, 8, 1, "1050302", 23);
+        Kata kata1020802 = new Kata(256, 102, 8, 2, "1050302", 24);
+        Kata kata1020803 = new Kata(257, 102, 8, 3, "1050302", 25);
+        Kata kata1020804 = new Kata(258, 102, 8, 4, "1050302", 26);
+
+        // 101 - al-qoriah
+        //blm gnti index get drwbl
+        Kata kata1010101 = new Kata(259, 101, 1, 1, "105xx01", 1);
+        Kata kata1010201 = new Kata(260, 101, 2, 1, "1050102", 2);
+        Kata kata1010202 = new Kata(261, 101, 2, 2, "1050103", 3);
+        Kata kata1010301 = new Kata(262, 101, 3, 1, "1050104", 4);
+        Kata kata1010302 = new Kata(263, 101, 3, 2, "1050105", 5);
+        Kata kata1010303 = new Kata(264, 101, 3, 3, "1050106", 6);
+        Kata kata1010304 = new Kata(265, 101, 3, 4, "1050107", 7);
+        Kata kata1010401 = new Kata(266, 101, 4, 1, "105xx01", 8);
+        Kata kata1010402 = new Kata(267, 101, 4, 2, "1050202", 9);
+        Kata kata1010403 = new Kata(268, 101, 4, 3, "1050203", 10);
+        Kata kata1010404 = new Kata(269, 101, 4, 4, "1050204", 11);
+        Kata kata1010405 = new Kata(270, 101, 4, 5, "1050205", 12);
+        Kata kata1010501 = new Kata(271, 101, 5, 1, "1050301", 13);
+        Kata kata1010502 = new Kata(272, 101, 5, 2, "1050302", 14);
+        Kata kata1010503 = new Kata(273, 101, 5, 3, "1050302", 15);
+        Kata kata1010504 = new Kata(274, 101, 5, 4, "1050302", 16);
+        Kata kata1010601 = new Kata(275, 101, 6, 1, "1050302", 17);
+        Kata kata1010602 = new Kata(276, 101, 6, 2, "1050302", 18);
+        Kata kata1010603 = new Kata(277, 101, 6, 3, "1050302", 19);
+        Kata kata1010604 = new Kata(278, 101, 6, 4, "1050302", 20);
+        Kata kata1010701 = new Kata(279, 101, 7, 1, "1050302", 21);
+        Kata kata1010702 = new Kata(280, 101, 7, 2, "1050302", 22);
+        Kata kata1010703 = new Kata(281, 101, 7, 3, "1050302", 23);
+        Kata kata1010704 = new Kata(282, 101, 7, 4, "1050302", 24);
+        Kata kata1010801 = new Kata(283, 101, 8, 1, "1050302", 25);
+        Kata kata1010802 = new Kata(284, 101, 8, 2, "1050302", 26);
+        Kata kata1010803 = new Kata(285, 101, 8, 3, "1050302", 27);
+        Kata kata1010804 = new Kata(286, 101, 8, 4, "1050302", 28);
+        Kata kata1010901 = new Kata(287, 101, 9, 1, "1050302", 29);
+        Kata kata1010902 = new Kata(288, 101, 9, 2, "1050302", 30);
+        Kata kata10101001 = new Kata(289, 101, 10, 1, "1050302", 31);
+        Kata kata10101002 = new Kata(290, 101, 10, 2, "1050302", 32);
+        Kata kata10101003 = new Kata(291, 101, 10, 3, "1050302", 33);
+        Kata kata10101101 = new Kata(292, 101, 11, 1, "1050302", 34);
+        Kata kata10101102 = new Kata(293, 101, 11, 2, "1050302", 35);
+
+        // 100 - al-adiyat
+        //blm gnti index get drwbl
+        Kata kata1000101 = new Kata(294, 100, 1, 1, "105xx01", 1);
+        Kata kata1000102 = new Kata(295, 100, 1, 2, "1050102", 2);
+        Kata kata1000201 = new Kata(296, 100, 2, 1, "1050103", 3);
+        Kata kata1000202 = new Kata(297, 100, 2, 2, "1050104", 4);
+        Kata kata1000301 = new Kata(298, 100, 3, 1, "1050105", 5);
+        Kata kata1000302 = new Kata(299, 100, 3, 2, "1050106", 6);
+        Kata kata1000401 = new Kata(300, 100, 4, 1, "1050107", 7);
+        Kata kata1000402 = new Kata(301, 100, 4, 2, "105xx01", 8);
+        Kata kata1000501 = new Kata(302, 100, 5, 1, "1050202", 9);
+        Kata kata1000502 = new Kata(303, 100, 5, 2, "1050203", 10);
+        Kata kata1000601 = new Kata(304, 100, 6, 1, "1050204", 11);
+        Kata kata1000602 = new Kata(305, 100, 6, 2, "1050205", 12);
+        Kata kata1000603 = new Kata(306, 100, 6, 3, "1050301", 13);
+        Kata kata1000604 = new Kata(307, 100, 6, 4, "1050302", 14);
+        Kata kata1000701 = new Kata(308, 100, 7, 1, "1050302", 15);
+        Kata kata1000702 = new Kata(309, 100, 7, 2, "1050302", 16);
+        Kata kata1000703 = new Kata(310, 100, 7, 3, "1050302", 17);
+        Kata kata1000704 = new Kata(311, 100, 7, 4, "1050302", 18);
+        Kata kata1000801 = new Kata(312, 100, 8, 1, "1050302", 19);
+        Kata kata1000802 = new Kata(313, 100, 8, 2, "1050302", 20);
+        Kata kata1000803 = new Kata(314, 100, 8, 3, "1050302", 21);
+        Kata kata1000804 = new Kata(315, 100, 8, 4, "1050302", 22);
+        Kata kata1000901 = new Kata(316, 100, 9, 1, "1050302", 23);
+        Kata kata1000902 = new Kata(317, 100, 9, 2, "1050302", 24);
+        Kata kata1000903 = new Kata(318, 100, 9, 3, "1050302", 25);
+        Kata kata1000904 = new Kata(319, 100, 9, 4, "1050302", 26);
+        Kata kata1000905 = new Kata(320, 100, 9, 5, "1050302", 27);
+        Kata kata1000906 = new Kata(321, 100, 9, 6, "1050302", 28);
+        Kata kata1000907 = new Kata(322, 100, 9, 7, "1050302", 29);
+        Kata kata10001001 = new Kata(323, 100, 10, 1, "1050302", 30);
+        Kata kata10001002 = new Kata(324, 100, 10, 2, "1050302", 31);
+        Kata kata10001003 = new Kata(325, 100, 10, 3, "1050302", 32);
+        Kata kata10001004 = new Kata(326, 100, 10, 4, "1050302", 33);
+        Kata kata10001005 = new Kata(327, 100, 10, 5, "1050302", 34);
+        Kata kata10001101 = new Kata(328, 100, 11, 1, "1050302", 35);
+        Kata kata10001102 = new Kata(329, 100, 11, 2, "1050302", 36);
+        Kata kata10001103 = new Kata(330, 100, 11, 3, "1050302", 37);
+        Kata kata10001104 = new Kata(331, 100, 11, 4, "1050302", 38);
+        Kata kata10001105 = new Kata(332, 100, 11, 5, "1050302", 39);
 
         // Inserting Kata in db
         // 114
@@ -512,6 +681,162 @@ public class SettingDBActivity extends Activity {
         long kata1050502_id = db.createKata(kata1050502);
         long kata1050503_id = db.createKata(kata1050503);
 
+        // 104
+        long kata1040101_id = db.createKata(kata1040101);
+        long kata1040102_id = db.createKata(kata1040102);
+        long kata1040103_id = db.createKata(kata1040103);
+        long kata1040201_id = db.createKata(kata1040201);
+        long kata1040202_id = db.createKata(kata1040202);
+        long kata1040203_id = db.createKata(kata1040203);
+        long kata1040204_id = db.createKata(kata1040204);
+        long kata1040301_id = db.createKata(kata1040301);
+        long kata1040302_id = db.createKata(kata1040302);
+        long kata1040303_id = db.createKata(kata1040303);
+        long kata1040304_id = db.createKata(kata1040304);
+        long kata1040401_id = db.createKata(kata1040401);
+        long kata1040402_id = db.createKata(kata1040402);
+        long kata1040403_id = db.createKata(kata1040403);
+        long kata1040404_id = db.createKata(kata1040404);
+        long kata1040501_id = db.createKata(kata1040501);
+        long kata1040502_id = db.createKata(kata1040502);
+        long kata1040503_id = db.createKata(kata1040503);
+        long kata1040504_id = db.createKata(kata1040504);
+        long kata1040601_id = db.createKata(kata1040601);
+        long kata1040602_id = db.createKata(kata1040602);
+        long kata1040701_id = db.createKata(kata1040701);
+        long kata1040702_id = db.createKata(kata1040702);
+        long kata1040703_id = db.createKata(kata1040703);
+        long kata1040704_id = db.createKata(kata1040704);
+        long kata1040801_id = db.createKata(kata1040801);
+        long kata1040802_id = db.createKata(kata1040802);
+        long kata1040803_id = db.createKata(kata1040803);
+        long kata1040901_id = db.createKata(kata1040901);
+        long kata1040902_id = db.createKata(kata1040902);
+        long kata1040903_id = db.createKata(kata1040903);
+
+        // 103
+        long kata1030101_id = db.createKata(kata1030101);
+        long kata1030201_id = db.createKata(kata1030201);
+        long kata1030202_id = db.createKata(kata1030202);
+        long kata1030203_id = db.createKata(kata1030203);
+        long kata1030204_id = db.createKata(kata1030204);
+        long kata1030301_id = db.createKata(kata1030301);
+        long kata1030302_id = db.createKata(kata1030302);
+        long kata1030303_id = db.createKata(kata1030303);
+        long kata1030304_id = db.createKata(kata1030304);
+        long kata1030305_id = db.createKata(kata1030305);
+        long kata1030306_id = db.createKata(kata1030306);
+        long kata1030307_id = db.createKata(kata1030307);
+        long kata1030308_id = db.createKata(kata1030308);
+        long kata1030309_id = db.createKata(kata1030309);
+
+        // 102
+        long kata1020101_id = db.createKata(kata1020101);
+        long kata1020102_id = db.createKata(kata1020102);
+        long kata1020201_id = db.createKata(kata1020201);
+        long kata1020202_id = db.createKata(kata1020202);
+        long kata1020203_id = db.createKata(kata1020203);
+        long kata1020301_id = db.createKata(kata1020301);
+        long kata1020302_id = db.createKata(kata1020302);
+        long kata1020303_id = db.createKata(kata1020303);
+        long kata1020401_id = db.createKata(kata1020401);
+        long kata1020402_id = db.createKata(kata1020402);
+        long kata1020403_id = db.createKata(kata1020403);
+        long kata1020404_id = db.createKata(kata1020404);
+        long kata1020501_id = db.createKata(kata1020501);
+        long kata1020502_id = db.createKata(kata1020502);
+        long kata1020503_id = db.createKata(kata1020503);
+        long kata1020504_id = db.createKata(kata1020504);
+        long kata1020601_id = db.createKata(kata1020601);
+        long kata1020602_id = db.createKata(kata1020602);
+        long kata1020701_id = db.createKata(kata1020701);
+        long kata1020702_id = db.createKata(kata1020702);
+        long kata1020703_id = db.createKata(kata1020703);
+        long kata1020704_id = db.createKata(kata1020704);
+        long kata1020801_id = db.createKata(kata1020801);
+        long kata1020802_id = db.createKata(kata1020802);
+        long kata1020803_id = db.createKata(kata1020803);
+        long kata1020804_id = db.createKata(kata1020804);
+
+        // 101
+        long kata1010101_id = db.createKata(kata1010101);
+        long kata1010201_id = db.createKata(kata1010201);
+        long kata1010202_id = db.createKata(kata1010202);
+        long kata1010301_id = db.createKata(kata1010301);
+        long kata1010302_id = db.createKata(kata1010302);
+        long kata1010303_id = db.createKata(kata1010303);
+        long kata1010304_id = db.createKata(kata1010304);
+        long kata1010401_id = db.createKata(kata1010401);
+        long kata1010402_id = db.createKata(kata1010402);
+        long kata1010403_id = db.createKata(kata1010403);
+        long kata1010404_id = db.createKata(kata1010404);
+        long kata1010405_id = db.createKata(kata1010405);
+        long kata1010501_id = db.createKata(kata1010501);
+        long kata1010502_id = db.createKata(kata1010502);
+        long kata1010503_id = db.createKata(kata1010503);
+        long kata1010504_id = db.createKata(kata1010504);
+        long kata1010601_id = db.createKata(kata1010601);
+        long kata1010602_id = db.createKata(kata1010602);
+        long kata1010603_id = db.createKata(kata1010603);
+        long kata1010604_id = db.createKata(kata1010604);
+        long kata1010701_id = db.createKata(kata1010701);
+        long kata1010702_id = db.createKata(kata1010702);
+        long kata1010703_id = db.createKata(kata1010703);
+        long kata1010704_id = db.createKata(kata1010704);
+        long kata1010801_id = db.createKata(kata1010801);
+        long kata1010802_id = db.createKata(kata1010802);
+        long kata1010803_id = db.createKata(kata1010803);
+        long kata1010804_id = db.createKata(kata1010804);
+        long kata1010901_id = db.createKata(kata1010901);
+        long kata1010902_id = db.createKata(kata1010902);
+        long kata10101001_id = db.createKata(kata10101001);
+        long kata10101002_id = db.createKata(kata10101002);
+        long kata10101003_id = db.createKata(kata10101003);
+        long kata10101101_id = db.createKata(kata10101101);
+        long kata10101102_id = db.createKata(kata10101102);
+
+        // 100
+        long kata1000101_id = db.createKata(kata1000101);
+        long kata1000102_id = db.createKata(kata1000102);
+        long kata1000201_id = db.createKata(kata1000201);
+        long kata1000202_id = db.createKata(kata1000202);
+        long kata1000301_id = db.createKata(kata1000301);
+        long kata1000302_id = db.createKata(kata1000302);
+        long kata1000401_id = db.createKata(kata1000401);
+        long kata1000402_id = db.createKata(kata1000402);
+        long kata1000501_id = db.createKata(kata1000501);
+        long kata1000502_id = db.createKata(kata1000502);
+        long kata1000601_id = db.createKata(kata1000601);
+        long kata1000602_id = db.createKata(kata1000602);
+        long kata1000603_id = db.createKata(kata1000603);
+        long kata1000604_id = db.createKata(kata1000604);
+        long kata1000701_id = db.createKata(kata1000701);
+        long kata1000702_id = db.createKata(kata1000702);
+        long kata1000703_id = db.createKata(kata1000703);
+        long kata1000704_id = db.createKata(kata1000704);
+        long kata1000801_id = db.createKata(kata1000801);
+        long kata1000802_id = db.createKata(kata1000802);
+        long kata1000803_id = db.createKata(kata1000803);
+        long kata1000804_id = db.createKata(kata1000804);
+        long kata1000901_id = db.createKata(kata1000901);
+        long kata1000902_id = db.createKata(kata1000902);
+        long kata1000903_id = db.createKata(kata1000903);
+        long kata1000904_id = db.createKata(kata1000904);
+        long kata1000905_id = db.createKata(kata1000905);
+        long kata1000906_id = db.createKata(kata1000906);
+        long kata1000907_id = db.createKata(kata1000907);
+        long kata10001001_id = db.createKata(kata10001001);
+        long kata10001002_id = db.createKata(kata10001002);
+        long kata10001003_id = db.createKata(kata10001003);
+        long kata10001004_id = db.createKata(kata10001004);
+        long kata10001005_id = db.createKata(kata10001005);
+        long kata10001101_id = db.createKata(kata10001101);
+        long kata10001102_id = db.createKata(kata10001102);
+        long kata10001103_id = db.createKata(kata10001103);
+        long kata10001104_id = db.createKata(kata10001104);
+        long kata10001105_id = db.createKata(kata10001105);
+
+
         Log.d("Kata Count", "Kata Count: " + db.getAllKata().size());
 
         // Creating Blok Kosong
@@ -544,7 +869,22 @@ public class SettingDBActivity extends Activity {
         BlokKosong blokkosong1063 = new BlokKosong(27, 106, 3, 13);
         BlokKosong blokkosong1051 = new BlokKosong(28, 105, 1, 6);
         BlokKosong blokkosong1052 = new BlokKosong(29, 105, 2, 12);
-        BlokKosong blokkosong1053 = new BlokKosong(30, 105, 3, 17);
+        BlokKosong blokkosong1053 = new BlokKosong(30, 105, 3, 11);
+        BlokKosong blokkosong1041 = new BlokKosong(31, 104, 1, 12);
+        BlokKosong blokkosong1042 = new BlokKosong(32, 104, 2, 10);
+        BlokKosong blokkosong1043 = new BlokKosong(33, 104, 3, 13);
+        BlokKosong blokkosong1031 = new BlokKosong(34, 103, 1, 9);
+        BlokKosong blokkosong1032 = new BlokKosong(35, 103, 2, 11);
+        BlokKosong blokkosong1033 = new BlokKosong(36, 103, 3, 10);
+        BlokKosong blokkosong1021 = new BlokKosong(37, 102, 1, 16);
+        BlokKosong blokkosong1022 = new BlokKosong(38, 102, 2, 10);
+        BlokKosong blokkosong1023 = new BlokKosong(39, 102, 3, 13);
+        BlokKosong blokkosong1011 = new BlokKosong(40, 101, 1, 10);
+        BlokKosong blokkosong1012 = new BlokKosong(41, 101, 2, 15);
+        BlokKosong blokkosong1013 = new BlokKosong(42, 101, 3, 17);
+        BlokKosong blokkosong1010 = new BlokKosong(43, 100, 1, 20);
+        BlokKosong blokkosong1009 = new BlokKosong(44, 100, 2, 15);
+        BlokKosong blokkosong1008 = new BlokKosong(45, 100, 3, 10);
 
         // Inserting Blok Kosong in db
         long blokkosong1141_id = db.createBlokKosong(blokkosong1141);
@@ -577,6 +917,21 @@ public class SettingDBActivity extends Activity {
         long blokkosong1051_id = db.createBlokKosong(blokkosong1051);
         long blokkosong1052_id = db.createBlokKosong(blokkosong1052);
         long blokkosong1053_id = db.createBlokKosong(blokkosong1053);
+        long blokkosong1041_id = db.createBlokKosong(blokkosong1041);
+        long blokkosong1042_id = db.createBlokKosong(blokkosong1042);
+        long blokkosong1043_id = db.createBlokKosong(blokkosong1043);
+        long blokkosong1031_id = db.createBlokKosong(blokkosong1031);
+        long blokkosong1032_id = db.createBlokKosong(blokkosong1032);
+        long blokkosong1033_id = db.createBlokKosong(blokkosong1033);
+        long blokkosong1021_id = db.createBlokKosong(blokkosong1021);
+        long blokkosong1022_id = db.createBlokKosong(blokkosong1022);
+        long blokkosong1023_id = db.createBlokKosong(blokkosong1023);
+        long blokkosong1011_id = db.createBlokKosong(blokkosong1011);
+        long blokkosong1012_id = db.createBlokKosong(blokkosong1012);
+        long blokkosong1013_id = db.createBlokKosong(blokkosong1013);
+        long blokkosong1010_id = db.createBlokKosong(blokkosong1010);
+        long blokkosong1009_id = db.createBlokKosong(blokkosong1009);
+        long blokkosong1008_id = db.createBlokKosong(blokkosong1008);
 
         Log.d("Blok Kosong Count", "Blok Kosong Count: " + db.getAllBlokKosong().size());
 

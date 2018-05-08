@@ -37,7 +37,11 @@
             android:screenOrientation="landscape" />
         <activity
             android:name="itam.q_puzzle.activity.Setting_Help"
-            android:label="help"
+            android:screenOrientation="landscape">
+        </activity>
+
+        <activity
+            android:name="itam.q_puzzle.activity.Listview_surah"
             android:screenOrientation="landscape">
         </activity>
     </application>
