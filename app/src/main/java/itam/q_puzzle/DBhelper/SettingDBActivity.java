@@ -40,7 +40,7 @@ public class SettingDBActivity extends Activity {
         Surat surat107 = new Surat(107, "AL-MA'UN", 7, 25, 8);
         Surat surat106 = new Surat(106, "QURAYSH", 4, 17, 9);
         Surat surat105 = new Surat(105, "AL-FIL", 5, 23, 10);
-        Surat surat104 = new Surat(105, "AL-HUMAZAH", 9, 29, 11);
+        Surat surat104 = new Surat(105, "AL-HUMAZAH", 9, 33, 11);
         Surat surat103 = new Surat(105, "AL-ASR", 3, 13, 12);
         Surat surat102 = new Surat(105, "AL-TAKASUR", 8, 28, 13);
         Surat surat101 = new Surat(105, "AL-QORIAH", 11, 31, 14);
@@ -300,55 +300,56 @@ public class SettingDBActivity extends Activity {
         Kata kata1050503 = new Kata(201, 105, 5, 3, "1050503", 23);
 
         // 104 - al-humazah
-        //blm gnti index get drwbl
-        Kata kata1040101 = new Kata(202, 104, 1, 1, "105xx01", 1);
-        Kata kata1040102 = new Kata(203, 104, 1, 2, "1050102", 2);
-        Kata kata1040103 = new Kata(204, 104, 1, 3, "1050103", 3);
-        Kata kata1040201 = new Kata(205, 104, 2, 1, "1050104", 4);
-        Kata kata1040202 = new Kata(206, 104, 2, 2, "1050105", 5);
-        Kata kata1040203 = new Kata(207, 104, 2, 3, "1050106", 6);
-        Kata kata1040204 = new Kata(208, 104, 2, 4, "1050107", 7);
-        Kata kata1040301 = new Kata(209, 104, 3, 1, "105xx01", 8);
-        Kata kata1040302 = new Kata(210, 104, 3, 2, "1050202", 9);
-        Kata kata1040303 = new Kata(211, 104, 3, 3, "1050203", 10);
-        Kata kata1040304 = new Kata(212, 104, 3, 4, "1050204", 11);
-        Kata kata1040401 = new Kata(213, 104, 4, 1, "1050205", 12);
-        Kata kata1040402 = new Kata(214, 104, 4, 2, "1050301", 13);
-        Kata kata1040403 = new Kata(215, 104, 4, 3, "1050302", 14);
-        Kata kata1040404 = new Kata(216, 104, 4, 4, "1050303", 15);
-        Kata kata1040501 = new Kata(217, 104, 5, 1, "1050304", 16);
-        Kata kata1040502 = new Kata(218, 104, 5, 2, "1050401", 17);
-        Kata kata1040503 = new Kata(219, 104, 5, 3, "1050402", 18);
-        Kata kata1040504 = new Kata(220, 104, 5, 4, "1050403", 19);
-        Kata kata1040601 = new Kata(221, 104, 6, 1, "1050404", 20);
-        Kata kata1040602 = new Kata(222, 104, 6, 2, "1050501", 21);
-        Kata kata1040701 = new Kata(223, 104, 7, 1, "1050502", 22);
-        Kata kata1040702 = new Kata(224, 104, 7, 2, "1050503", 23);
-        Kata kata1040703 = new Kata(225, 104, 7, 3, "1050503", 24);
-        Kata kata1040704 = new Kata(226, 104, 7, 4, "1050503", 25);
-        Kata kata1040801 = new Kata(227, 104, 8, 1, "1050503", 26);
-        Kata kata1040802 = new Kata(228, 104, 8, 2, "1050503", 27);
-        Kata kata1040803 = new Kata(229, 104, 8, 3, "1050503", 28);
-        Kata kata1040901 = new Kata(230, 104, 9, 1, "1050503", 29);
-        Kata kata1040902 = new Kata(231, 104, 9, 2, "1050503", 30);
-        Kata kata1040903 = new Kata(232, 104, 9, 3, "1050503", 31);
+        Kata kata1040101 = new Kata(202, 104, 1, 1, "1040101", 1);
+        Kata kata1040102 = new Kata(203, 104, 1, 2, "1040102", 2);
+        Kata kata1040103 = new Kata(204, 104, 1, 3, "1040103", 3);
+        Kata kata1040104 = new Kata(205, 104, 1, 4, "1040104", 4);
+        Kata kata1040201 = new Kata(206, 104, 2, 1, "1040201", 5);
+        Kata kata1040202 = new Kata(207, 104, 2, 2, "1040202", 6);
+        Kata kata1040203 = new Kata(208, 104, 2, 3, "1040203", 7);
+        Kata kata1040204 = new Kata(209, 104, 2, 4, "1040204", 8);
+        Kata kata1040301 = new Kata(210, 104, 3, 1, "1040301", 9);
+        Kata kata1040302 = new Kata(211, 104, 3, 2, "1040302", 10);
+        Kata kata1040303 = new Kata(212, 104, 3, 3, "1040303", 11);
+        Kata kata1040304 = new Kata(213, 104, 3, 4, "1040304", 12);
+        Kata kata1040401 = new Kata(214, 104, 4, 1, "1050401", 13);
+        Kata kata1040402 = new Kata(215, 104, 4, 2, "1050402", 14);
+        Kata kata1040403 = new Kata(216, 104, 4, 3, "1050403", 15);
+        Kata kata1040404 = new Kata(217, 104, 4, 4, "1050404", 16);
+        Kata kata1040501 = new Kata(218, 104, 5, 1, "1050501", 17);
+        Kata kata1040502 = new Kata(219, 104, 5, 2, "1050502", 18);
+        Kata kata1040503 = new Kata(220, 104, 5, 3, "1050503", 19);
+        Kata kata1040504 = new Kata(221, 104, 5, 4, "1050504", 20);
+        Kata kata1040601 = new Kata(222, 104, 6, 1, "1050601", 21);
+        Kata kata1040602 = new Kata(223, 104, 6, 2, "1050602", 22);
+        Kata kata1040603 = new Kata(224, 104, 6, 3, "1050603", 23);
+        Kata kata1040701 = new Kata(225, 104, 7, 1, "1050701", 24);
+        Kata kata1040702 = new Kata(226, 104, 7, 2, "1050702", 25);
+        Kata kata1040703 = new Kata(227, 104, 7, 3, "1050703", 26);
+        Kata kata1040704 = new Kata(228, 104, 7, 4, "1050704", 27);
+        Kata kata1040801 = new Kata(229, 104, 8, 1, "1050801", 28);
+        Kata kata1040802 = new Kata(230, 104, 8, 2, "1050802", 29);
+        Kata kata1040803 = new Kata(231, 104, 8, 3, "1050803", 30);
+        Kata kata1040901 = new Kata(232, 104, 9, 1, "1050901", 31);
+        Kata kata1040902 = new Kata(233, 104, 9, 2, "1050902", 32);
+        Kata kata1040903 = new Kata(234, 104, 9, 3, "1050903", 33);
 
         // 103 - al-asr
         //blm gnti index get drwbl
-        Kata kata1030101 = new Kata(233, 103, 1, 1, "105xx01", 1);
-        Kata kata1030201 = new Kata(234, 103, 2, 1, "1050102", 2);
-        Kata kata1030202 = new Kata(235, 103, 2, 2, "1050103", 3);
-        Kata kata1030203 = new Kata(236, 103, 2, 3, "1050104", 4);
-        Kata kata1030204 = new Kata(237, 103, 2, 4, "1050105", 5);
-        Kata kata1030301 = new Kata(238, 103, 3, 1, "1050106", 6);
-        Kata kata1030302 = new Kata(239, 103, 3, 2, "1050107", 7);
-        Kata kata1030303 = new Kata(240, 103, 3, 3, "105xx01", 8);
-        Kata kata1030304 = new Kata(241, 103, 3, 4, "1050202", 9);
-        Kata kata1030305 = new Kata(242, 103, 3, 5, "1050203", 10);
-        Kata kata1030306 = new Kata(243, 103, 3, 6, "1050204", 11);
-        Kata kata1030307 = new Kata(244, 103, 4, 7, "1050205", 12);
-        Kata kata1030308 = new Kata(245, 103, 4, 8, "1050301", 13);
-        Kata kata1030309 = new Kata(246, 103, 4, 9, "1050302", 14);
+        Kata kata1030101 = new Kata(235, 103, 1, 1, "1030101", 1);
+        Kata kata1030201 = new Kata(236, 103, 2, 1, "1030201", 2);
+        Kata kata1030202 = new Kata(237, 103, 2, 2, "1030202", 3);
+        Kata kata1030203 = new Kata(238, 103, 2, 3, "1030203", 4);
+        Kata kata1030204 = new Kata(239, 103, 2, 4, "1030204", 5);
+        Kata kata1030205 = new Kata(240, 103, 2, 5, "1030205", 6);
+        Kata kata1030206 = new Kata(241, 103, 2, 6, "1030206", 7);
+        Kata kata1030207 = new Kata(242, 103, 2, 7, "1030207", 8);
+        Kata kata1030208 = new Kata(243, 103, 2, 8, "1030208", 9);
+        Kata kata1030209 = new Kata(244, 103, 2, 9, "1030209", 10);
+        Kata kata1030301 = new Kata(245, 103, 3, 1, "1030301", 11);
+        Kata kata1030302 = new Kata(246, 103, 3, 2, "1030302", 12);
+        Kata kata1030303 = new Kata(247, 103, 3, 3, "1030303", 13);
+        Kata kata1030304 = new Kata(248, 103, 3, 4, "1030304", 14);
 
         // 102 - al-atakasur
         //blm gnti index get drwbl
@@ -685,6 +686,7 @@ public class SettingDBActivity extends Activity {
         long kata1040101_id = db.createKata(kata1040101);
         long kata1040102_id = db.createKata(kata1040102);
         long kata1040103_id = db.createKata(kata1040103);
+        long kata1040104_id = db.createKata(kata1040104);
         long kata1040201_id = db.createKata(kata1040201);
         long kata1040202_id = db.createKata(kata1040202);
         long kata1040203_id = db.createKata(kata1040203);
@@ -703,6 +705,7 @@ public class SettingDBActivity extends Activity {
         long kata1040504_id = db.createKata(kata1040504);
         long kata1040601_id = db.createKata(kata1040601);
         long kata1040602_id = db.createKata(kata1040602);
+        long kata1040603_id = db.createKata(kata1040603);
         long kata1040701_id = db.createKata(kata1040701);
         long kata1040702_id = db.createKata(kata1040702);
         long kata1040703_id = db.createKata(kata1040703);
@@ -720,15 +723,15 @@ public class SettingDBActivity extends Activity {
         long kata1030202_id = db.createKata(kata1030202);
         long kata1030203_id = db.createKata(kata1030203);
         long kata1030204_id = db.createKata(kata1030204);
-        long kata1030301_id = db.createKata(kata1030301);
-        long kata1030302_id = db.createKata(kata1030302);
-        long kata1030303_id = db.createKata(kata1030303);
-        long kata1030304_id = db.createKata(kata1030304);
-        long kata1030305_id = db.createKata(kata1030305);
-        long kata1030306_id = db.createKata(kata1030306);
-        long kata1030307_id = db.createKata(kata1030307);
-        long kata1030308_id = db.createKata(kata1030308);
-        long kata1030309_id = db.createKata(kata1030309);
+        long kata1030301_id = db.createKata(kata1030205);
+        long kata1030302_id = db.createKata(kata1030206);
+        long kata1030303_id = db.createKata(kata1030207);
+        long kata1030304_id = db.createKata(kata1030208);
+        long kata1030305_id = db.createKata(kata1030209);
+        long kata1030306_id = db.createKata(kata1030301);
+        long kata1030307_id = db.createKata(kata1030302);
+        long kata1030308_id = db.createKata(kata1030303);
+        long kata1030309_id = db.createKata(kata1030304);
 
         // 102
         long kata1020101_id = db.createKata(kata1020101);
