@@ -41,7 +41,7 @@ public class SettingDBActivity extends Activity {
         Surat surat106 = new Surat(106, "QURAYSH", 4, 17, 9);
         Surat surat105 = new Surat(105, "AL-FIL", 5, 23, 10);
         Surat surat104 = new Surat(105, "AL-HUMAZAH", 9, 33, 11);
-        Surat surat103 = new Surat(105, "AL-ASR", 3, 13, 12);
+        Surat surat103 = new Surat(105, "AL-ASR", 3, 14, 12);
         Surat surat102 = new Surat(105, "AL-TAKASUR", 8, 28, 13);
         Surat surat101 = new Surat(105, "AL-QORIAH", 11, 31, 14);
         Surat surat100 = new Surat(105, "AL-ADIYAT", 11, 29, 15);
@@ -351,7 +351,6 @@ public class SettingDBActivity extends Activity {
         Kata kata1030304 = new Kata(248, 103, 3, 4, "1030304", 14);
 
         // 102 - al-atakasur
-        //blm gnti index get drwbl
         Kata kata1020101 = new Kata(249, 102, 1, 1, "1020101", 1);
         Kata kata1020102 = new Kata(250, 102, 1, 2, "1020102", 2);
         Kata kata1020201 = new Kata(251, 102, 2, 1, "1020201", 3);
