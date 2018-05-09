@@ -67,7 +67,7 @@ public class NilaiPermainanActivity extends AppCompatActivity {
         curPuzzle = settingsPuzzle.getValInt();
         curSurat = settingsSurat.getValInt();
         curLevel = settingsLevel.getValInt();
-        if(curPuzzle!=10||curLevel!=3) {
+        if(curPuzzle!=15||curLevel!=3) {
             nextPuzzle = settingsNextPuzzle.getValInt();
             nextSurat = settingsNextSurat.getValInt();
             nextLevel = settingsNextLevel.getValInt();
@@ -96,7 +96,7 @@ public class NilaiPermainanActivity extends AppCompatActivity {
 
         imageSurat.setImageDrawable(getDrawableByName("npsurat"+curSurat));
         imageLevel.setImageDrawable(getDrawableByName("nplevel"+curLevel));
-        if(curPuzzle!=10||curLevel!=3) {
+        if(curPuzzle!=15||curLevel!=3) {
             imageNextPuzzle.setImageDrawable(getDrawableByName("nppuzzleselanjutnya" + nextPuzzle));
             imageNextLevel.setImageDrawable(getDrawableByName("nplevelselanjutnya" + nextLevel));
         }
@@ -114,7 +114,7 @@ public class NilaiPermainanActivity extends AppCompatActivity {
         textTotalNilai.setText(""+totalNilai);
         textTotalWaktu.setText(waktuClass.getWaktuJam(totalWaktu));
 
-        if(curPuzzle!=10||curLevel!=3) {
+        if(curPuzzle!=15||curLevel!=3) {
 
             settingsNew = new Settings("new", 0);
             settingsPuzzle = new Settings("puzzle", nextPuzzle);
@@ -139,7 +139,7 @@ public class NilaiPermainanActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-                if(curPuzzle!=10||curLevel!=3) {
+                if(curPuzzle!=15||curLevel!=1) {
 
                     Intent intent = new Intent(context, LoadingScreenActivity.class);
                     startActivity(intent);

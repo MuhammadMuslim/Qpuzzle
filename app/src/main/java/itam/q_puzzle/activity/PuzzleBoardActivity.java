@@ -490,7 +490,7 @@ public class PuzzleBoardActivity extends AppCompatActivity {
 
         if(curLevel==3) {
 
-            if(curPuzzle!=10) {
+            if(curPuzzle!=15) {
                 paramWaktu = (double) waktu / jumlahSoal;
                 paramKesalahan = (double) isSalah / (jumlahSoal + isSalah);
                 paramBantuan = (double) useBantuan / jumlahSoal;
@@ -537,7 +537,7 @@ public class PuzzleBoardActivity extends AppCompatActivity {
         databaseHelper.updateSettings(settingsTotalNilai);
         databaseHelper.updateSettings(settingsTotalWaktu);
 
-        if(curPuzzle!=10||curLevel!=3) {
+        if(curPuzzle!=15||curLevel!=3) {
             settingsNextLevel = new Settings("nextlevel", nextLevel);
             settingsNextPuzzle = new Settings("nextpuzzle", nextPuzzle);
             settingsNextSurat = new Settings("nextsurat", nextSurat);
