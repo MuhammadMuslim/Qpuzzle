@@ -40,11 +40,11 @@ public class SettingDBActivity extends Activity {
         Surat surat107 = new Surat(107, "AL-MA'UN", 7, 25, 8);
         Surat surat106 = new Surat(106, "QURAYSH", 4, 17, 9);
         Surat surat105 = new Surat(105, "AL-FIL", 5, 23, 10);
-        Surat surat104 = new Surat(105, "AL-HUMAZAH", 9, 33, 11);
-        Surat surat103 = new Surat(105, "AL-ASR", 3, 14, 12);
-        Surat surat102 = new Surat(105, "AL-TAKASUR", 8, 28, 13);
-        Surat surat101 = new Surat(105, "AL-QORIAH", 11, 36, 14);
-        Surat surat100 = new Surat(105, "AL-ADIYAT", 11, 29, 15);
+        Surat surat104 = new Surat(104, "AL-HUMAZAH", 9, 33, 11);
+        Surat surat103 = new Surat(103, "AL-ASR", 3, 14, 12);
+        Surat surat102 = new Surat(102, "AL-TAKASUR", 8, 28, 13);
+        Surat surat101 = new Surat(101, "AL-QORIAH", 11, 36, 14);
+        Surat surat100 = new Surat(100, "AL-ADIYAT", 11, 29, 15);
 
         // Inserting Surat in db
         long surat114_id = db.createSurat(surat114);
@@ -312,27 +312,27 @@ public class SettingDBActivity extends Activity {
         Kata kata1040302 = new Kata(211, 104, 3, 2, "1040302", 10);
         Kata kata1040303 = new Kata(212, 104, 3, 3, "1040303", 11);
         Kata kata1040304 = new Kata(213, 104, 3, 4, "1040304", 12);
-        Kata kata1040401 = new Kata(214, 104, 4, 1, "1050401", 13);
-        Kata kata1040402 = new Kata(215, 104, 4, 2, "1050402", 14);
-        Kata kata1040403 = new Kata(216, 104, 4, 3, "1050403", 15);
-        Kata kata1040404 = new Kata(217, 104, 4, 4, "1050404", 16);
-        Kata kata1040501 = new Kata(218, 104, 5, 1, "1050501", 17);
-        Kata kata1040502 = new Kata(219, 104, 5, 2, "1050502", 18);
-        Kata kata1040503 = new Kata(220, 104, 5, 3, "1050503", 19);
-        Kata kata1040504 = new Kata(221, 104, 5, 4, "1050504", 20);
-        Kata kata1040601 = new Kata(222, 104, 6, 1, "1050601", 21);
-        Kata kata1040602 = new Kata(223, 104, 6, 2, "1050602", 22);
-        Kata kata1040603 = new Kata(224, 104, 6, 3, "1050603", 23);
-        Kata kata1040701 = new Kata(225, 104, 7, 1, "1050701", 24);
-        Kata kata1040702 = new Kata(226, 104, 7, 2, "1050702", 25);
-        Kata kata1040703 = new Kata(227, 104, 7, 3, "1050703", 26);
-        Kata kata1040704 = new Kata(228, 104, 7, 4, "1050704", 27);
-        Kata kata1040801 = new Kata(229, 104, 8, 1, "1050801", 28);
-        Kata kata1040802 = new Kata(230, 104, 8, 2, "1050802", 29);
-        Kata kata1040803 = new Kata(231, 104, 8, 3, "1050803", 30);
-        Kata kata1040901 = new Kata(232, 104, 9, 1, "1050901", 31);
-        Kata kata1040902 = new Kata(233, 104, 9, 2, "1050902", 32);
-        Kata kata1040903 = new Kata(234, 104, 9, 3, "1050903", 33);
+        Kata kata1040401 = new Kata(214, 104, 4, 1, "1040401", 13);
+        Kata kata1040402 = new Kata(215, 104, 4, 2, "1040402", 14);
+        Kata kata1040403 = new Kata(216, 104, 4, 3, "1040403", 15);
+        Kata kata1040404 = new Kata(217, 104, 4, 4, "1040404", 16);
+        Kata kata1040501 = new Kata(218, 104, 5, 1, "1040501", 17);
+        Kata kata1040502 = new Kata(219, 104, 5, 2, "1040502", 18);
+        Kata kata1040503 = new Kata(220, 104, 5, 3, "1040503", 19);
+        Kata kata1040504 = new Kata(221, 104, 5, 4, "1040504", 20);
+        Kata kata1040601 = new Kata(222, 104, 6, 1, "1040601", 21);
+        Kata kata1040602 = new Kata(223, 104, 6, 2, "1040602", 22);
+        Kata kata1040603 = new Kata(224, 104, 6, 3, "1040603", 23);
+        Kata kata1040701 = new Kata(225, 104, 7, 1, "1040701", 24);
+        Kata kata1040702 = new Kata(226, 104, 7, 2, "1040702", 25);
+        Kata kata1040703 = new Kata(227, 104, 7, 3, "1040703", 26);
+        Kata kata1040704 = new Kata(228, 104, 7, 4, "1040704", 27);
+        Kata kata1040801 = new Kata(229, 104, 8, 1, "1040801", 28);
+        Kata kata1040802 = new Kata(230, 104, 8, 2, "1040802", 29);
+        Kata kata1040803 = new Kata(231, 104, 8, 3, "1040803", 30);
+        Kata kata1040901 = new Kata(232, 104, 9, 1, "1040901", 31);
+        Kata kata1040902 = new Kata(233, 104, 9, 2, "1040902", 32);
+        Kata kata1040903 = new Kata(234, 104, 9, 3, "1040903", 33);
 
         // 103 - al-asr
         Kata kata1030101 = new Kata(235, 103, 1, 1, "1030101", 1);
@@ -381,7 +381,6 @@ public class SettingDBActivity extends Activity {
         Kata kata1020805 = new Kata(279, 102, 8, 5, "1020805", 28);
 
         //101 - al-qoriah
-        //blm gnti index get drwbl
         Kata kata1010101 = new Kata(280, 101, 1, 1, "1010101", 1);
         Kata kata1010201 = new Kata(281, 101, 2, 1, "1010201", 2);
         Kata kata1010202 = new Kata(282, 101, 2, 2, "1050202", 3);
@@ -420,46 +419,46 @@ public class SettingDBActivity extends Activity {
         Kata kata10101102 = new Kata(315, 101, 11, 2, "10101102", 36);
 
         //100 - al-adiyat
-        //blm gnti index get drwbl
-        Kata kata1000101 = new Kata(294, 100, 1, 1, "105xx01", 1);
-        Kata kata1000102 = new Kata(295, 100, 1, 2, "1050102", 2);
-        Kata kata1000201 = new Kata(296, 100, 2, 1, "1050103", 3);
-        Kata kata1000202 = new Kata(297, 100, 2, 2, "1050104", 4);
-        Kata kata1000301 = new Kata(298, 100, 3, 1, "1050105", 5);
-        Kata kata1000302 = new Kata(299, 100, 3, 2, "1050106", 6);
-        Kata kata1000401 = new Kata(300, 100, 4, 1, "1050107", 7);
-        Kata kata1000402 = new Kata(301, 100, 4, 2, "105xx01", 8);
-        Kata kata1000501 = new Kata(302, 100, 5, 1, "1050202", 9);
-        Kata kata1000502 = new Kata(303, 100, 5, 2, "1050203", 10);
-        Kata kata1000601 = new Kata(304, 100, 6, 1, "1050204", 11);
-        Kata kata1000602 = new Kata(305, 100, 6, 2, "1050205", 12);
-        Kata kata1000603 = new Kata(306, 100, 6, 3, "1050301", 13);
-        Kata kata1000604 = new Kata(307, 100, 6, 4, "1050302", 14);
-        Kata kata1000701 = new Kata(308, 100, 7, 1, "1050302", 15);
-        Kata kata1000702 = new Kata(309, 100, 7, 2, "1050302", 16);
-        Kata kata1000703 = new Kata(310, 100, 7, 3, "1050302", 17);
-        Kata kata1000704 = new Kata(311, 100, 7, 4, "1050302", 18);
-        Kata kata1000801 = new Kata(312, 100, 8, 1, "1050302", 19);
-        Kata kata1000802 = new Kata(313, 100, 8, 2, "1050302", 20);
-        Kata kata1000803 = new Kata(314, 100, 8, 3, "1050302", 21);
-        Kata kata1000804 = new Kata(315, 100, 8, 4, "1050302", 22);
-        Kata kata1000901 = new Kata(316, 100, 9, 1, "1050302", 23);
-        Kata kata1000902 = new Kata(317, 100, 9, 2, "1050302", 24);
-        Kata kata1000903 = new Kata(318, 100, 9, 3, "1050302", 25);
-        Kata kata1000904 = new Kata(319, 100, 9, 4, "1050302", 26);
-        Kata kata1000905 = new Kata(320, 100, 9, 5, "1050302", 27);
-        Kata kata1000906 = new Kata(321, 100, 9, 6, "1050302", 28);
-        Kata kata1000907 = new Kata(322, 100, 9, 7, "1050302", 29);
-        Kata kata10001001 = new Kata(323, 100, 10, 1, "1050302", 30);
-        Kata kata10001002 = new Kata(324, 100, 10, 2, "1050302", 31);
-        Kata kata10001003 = new Kata(325, 100, 10, 3, "1050302", 32);
-        Kata kata10001004 = new Kata(326, 100, 10, 4, "1050302", 33);
-        Kata kata10001005 = new Kata(327, 100, 10, 5, "1050302", 34);
-        Kata kata10001101 = new Kata(328, 100, 11, 1, "1050302", 35);
-        Kata kata10001102 = new Kata(329, 100, 11, 2, "1050302", 36);
-        Kata kata10001103 = new Kata(330, 100, 11, 3, "1050302", 37);
-        Kata kata10001104 = new Kata(331, 100, 11, 4, "1050302", 38);
-        Kata kata10001105 = new Kata(332, 100, 11, 5, "1050302", 39);
+        Kata kata1000101 = new Kata(316, 100, 1, 1, "1000101", 1);
+        Kata kata1000102 = new Kata(317, 100, 1, 2, "1000102", 2);
+        Kata kata1000201 = new Kata(318, 100, 2, 1, "1000201", 3);
+        Kata kata1000202 = new Kata(319, 100, 2, 2, "1000202", 4);
+        Kata kata1000301 = new Kata(320, 100, 3, 1, "1000301", 5);
+        Kata kata1000302 = new Kata(321, 100, 3, 2, "1000302", 6);
+        Kata kata1000401 = new Kata(322, 100, 4, 1, "1000401", 7);
+        Kata kata1000402 = new Kata(323, 100, 4, 2, "1000402", 8);
+        Kata kata1000403 = new Kata(324, 100, 4, 3, "1000403", 9);
+        Kata kata1000501 = new Kata(325, 100, 5, 1, "1000501", 10);
+        Kata kata1000502 = new Kata(326, 100, 5, 2, "1000502", 11);
+        Kata kata1000503 = new Kata(327, 100, 5, 3, "1000503", 12);
+        Kata kata1000601 = new Kata(328, 100, 6, 1, "1000601", 13);
+        Kata kata1000602 = new Kata(329, 100, 6, 2, "1000602", 14);
+        Kata kata1000603 = new Kata(330, 100, 6, 3, "1000603", 15);
+        Kata kata1000604 = new Kata(331, 100, 6, 4, "1000604", 16);
+        Kata kata1000701 = new Kata(332, 100, 7, 1, "1000701", 17);
+        Kata kata1000702 = new Kata(333, 100, 7, 2, "1000702", 18);
+        Kata kata1000703 = new Kata(334, 100, 7, 3, "1000703", 19);
+        Kata kata1000704 = new Kata(335, 100, 7, 4, "1000704", 20);
+        Kata kata1000801 = new Kata(336, 100, 8, 1, "1000802", 21);
+        Kata kata1000802 = new Kata(337, 100, 8, 2, "1000802", 22);
+        Kata kata1000803 = new Kata(338, 100, 8, 3, "1000802", 23);
+        Kata kata1000804 = new Kata(339, 100, 8, 4, "1000802", 24);
+        Kata kata1000901 = new Kata(340, 100, 9, 1, "1000902", 25);
+        Kata kata1000902 = new Kata(341, 100, 9, 2, "1000902", 26);
+        Kata kata1000903 = new Kata(342, 100, 9, 3, "1000902", 27);
+        Kata kata1000904 = new Kata(343, 100, 9, 4, "1000902", 28);
+        Kata kata1000905 = new Kata(344, 100, 9, 5, "1000902", 29);
+        Kata kata1000906 = new Kata(345, 100, 9, 6, "1000902", 30);
+        Kata kata1000907 = new Kata(346, 100, 9, 7, "1000902", 31);
+        Kata kata10001001 = new Kata(347, 100, 10, 1, "10001001", 32);
+        Kata kata10001002 = new Kata(348, 100, 10, 2, "10001002", 33);
+        Kata kata10001003 = new Kata(349, 100, 10, 3, "10001003", 34);
+        Kata kata10001004 = new Kata(350, 100, 10, 4, "10001004", 35);
+        Kata kata10001101 = new Kata(351, 100, 11, 1, "10001101", 36);
+        Kata kata10001102 = new Kata(352, 100, 11, 2, "10001102", 37);
+        Kata kata10001103 = new Kata(353, 100, 11, 3, "10001113", 38);
+        Kata kata10001104 = new Kata(354, 100, 11, 4, "10001104", 39);
+        Kata kata10001105 = new Kata(355, 100, 11, 5, "10001105", 40);
 
         // Inserting Kata in db
         // 114
@@ -811,8 +810,10 @@ public class SettingDBActivity extends Activity {
         long kata1000302_id = db.createKata(kata1000302);
         long kata1000401_id = db.createKata(kata1000401);
         long kata1000402_id = db.createKata(kata1000402);
+        long kata1000403_id = db.createKata(kata1000403);
         long kata1000501_id = db.createKata(kata1000501);
         long kata1000502_id = db.createKata(kata1000502);
+        long kata1000503_id = db.createKata(kata1000503);
         long kata1000601_id = db.createKata(kata1000601);
         long kata1000602_id = db.createKata(kata1000602);
         long kata1000603_id = db.createKata(kata1000603);
@@ -836,7 +837,6 @@ public class SettingDBActivity extends Activity {
         long kata10001002_id = db.createKata(kata10001002);
         long kata10001003_id = db.createKata(kata10001003);
         long kata10001004_id = db.createKata(kata10001004);
-        long kata10001005_id = db.createKata(kata10001005);
         long kata10001101_id = db.createKata(kata10001101);
         long kata10001102_id = db.createKata(kata10001102);
         long kata10001103_id = db.createKata(kata10001103);
@@ -877,21 +877,21 @@ public class SettingDBActivity extends Activity {
         BlokKosong blokkosong1051 = new BlokKosong(28, 105, 1, 6);
         BlokKosong blokkosong1052 = new BlokKosong(29, 105, 2, 12);
         BlokKosong blokkosong1053 = new BlokKosong(30, 105, 3, 11);
-        BlokKosong blokkosong1041 = new BlokKosong(31, 104, 1, 12);
+        BlokKosong blokkosong1041 = new BlokKosong(31, 104, 1, 5);
         BlokKosong blokkosong1042 = new BlokKosong(32, 104, 2, 10);
-        BlokKosong blokkosong1043 = new BlokKosong(33, 104, 3, 13);
+        BlokKosong blokkosong1043 = new BlokKosong(33, 104, 3, 15);
         BlokKosong blokkosong1031 = new BlokKosong(34, 103, 1, 9);
         BlokKosong blokkosong1032 = new BlokKosong(35, 103, 2, 11);
         BlokKosong blokkosong1033 = new BlokKosong(36, 103, 3, 10);
-        BlokKosong blokkosong1021 = new BlokKosong(37, 102, 1, 16);
+        BlokKosong blokkosong1021 = new BlokKosong(37, 102, 1, 5);
         BlokKosong blokkosong1022 = new BlokKosong(38, 102, 2, 10);
-        BlokKosong blokkosong1023 = new BlokKosong(39, 102, 3, 13);
-        BlokKosong blokkosong1011 = new BlokKosong(40, 101, 1, 10);
-        BlokKosong blokkosong1012 = new BlokKosong(41, 101, 2, 15);
-        BlokKosong blokkosong1013 = new BlokKosong(42, 101, 3, 17);
-        BlokKosong blokkosong1010 = new BlokKosong(43, 100, 1, 20);
-        BlokKosong blokkosong1009 = new BlokKosong(44, 100, 2, 15);
-        BlokKosong blokkosong1008 = new BlokKosong(45, 100, 3, 10);
+        BlokKosong blokkosong1023 = new BlokKosong(39, 102, 3, 15);
+        BlokKosong blokkosong1011 = new BlokKosong(40, 101, 1, 5);
+        BlokKosong blokkosong1012 = new BlokKosong(41, 101, 2, 10);
+        BlokKosong blokkosong1013 = new BlokKosong(42, 101, 3, 15);
+        BlokKosong blokkosong1010 = new BlokKosong(43, 100, 1, 5);
+        BlokKosong blokkosong1009 = new BlokKosong(44, 100, 2, 10);
+        BlokKosong blokkosong1008 = new BlokKosong(45, 100, 3, 15);
 
         // Inserting Blok Kosong in db
         long blokkosong1141_id = db.createBlokKosong(blokkosong1141);
