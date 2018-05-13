@@ -17,8 +17,9 @@
         android:id="@+id/iBt_mulai"
         android:src="@drawable/mubtmulai"
         android:background="?android:attr/selectableItemBackground"
-        android:layout_centerVertical="true"
-        android:layout_centerHorizontal="true" />
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="76dp" />
 
     <ImageButton
         android:id="@+id/iBt_papannilai"
